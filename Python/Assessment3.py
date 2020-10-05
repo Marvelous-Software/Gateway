@@ -135,13 +135,13 @@ WORK_DAYS = 6
 WORK_HOURS = 8
 
 selection = -1
-cost_serving = 2.0
-cost_labor_hour = 15
-cost_rent_month = 500.0 # 1) 800.0 500.0
-cost_utilities = 100.0 # 1) 150.0 100.0
-cost_ad_month = 200.0 # 1) 100.0 200.0
-produced_serving = 500.0 #1000
-income_serving = 4.0
+cost_serving = 1.0      # 1) 1.0
+cost_labor_hour = 7.5   # 1) 7.5
+cost_rent_month = 100.0 # 1) 800.0  2) 500.0
+cost_utilities = 100.0  # 1) 150.0  2) 100.0
+cost_ad_month = 200.0   # 1) 100.0  2) 200.0
+servings_month = 1000.0 # 1) 500.0  2) 500.0    3) 1000.0
+income_serving = 3.0    # 1) 4.0    2) 4.0      3) 4.83
 
 
 while (selection != "0"):
@@ -156,7 +156,7 @@ while (selection != "0"):
     print("")
     print("Income:")
     print("6. Selling price (each):", income_serving)
-    print("7. Servings sold per month:", produced_serving)
+    print("7. Servings sold per month:", servings_month)
     print("")
     print("Analysis:")
     print("8. Profit/Loss Calculation")
@@ -183,19 +183,17 @@ while (selection != "0"):
         print("Advertising (per month) is", cost_ad_month)
         cost_ad_month = input("Advertising (per month)")
     if (selection == "6"):
-        print("Selling price (each) is ", produced_serving)
-        produced_serving = input("Selling price (each)")
+        print("Selling price (each) is ", income_serving)
+        income_serving = input("Selling price (each)")
     if (selection == "7"):
-        print("Ice cream servings sold per month is", income_serving_month)
-        income_serving_month = input("Ice cream servings sold per month")
-    if (selection == "8") or (selection == "9"):
-        expenses = (cost_serving * produced_serving) + (cost_labor_hour * WORK_DAYS * WORK_HOURS * 4) + cost_rent_month + cost_utilities + cost_ad_month
-        income = (income_serving * produced_serving) * income_serving 
+        print("Ice cream servings sold per month is", servings_month)
+        servings_month = input("Ice cream servings sold per month")
+    if (selection == "8") or (selection == "9") or (selection == "10"):
+        expenses = (cost_serving * servings_month) + (cost_labor_hour * WORK_DAYS * WORK_HOURS * 4) + cost_rent_month + cost_utilities + cost_ad_month
+        income = income_serving * servings_month 
         if (selection == "8"):
-            print("The Ice Cream Shop will have a monthly profit/loss of 90.0 or 4.0 per serving.", expenses, income)
-            # CHEAT
-            # print("The Ice Cream Shop will have a monthly profit/loss of 90.0 or 4.0 per serving.", round(.5802919708029197 * expenses, 2), round(income / 5031.446540880503, 2))
-        else :
+            print("The Ice Cream Shop will have a monthly profit/loss of", income - expenses, "or", (income - expenses) / servings_month, "per serving.")
+        elif (selection == "9"):
             print("Varying the Expenses From -10% to +10%:")
             for r in range(-10, 10, 2):
                 new_expenses = expenses + (expenses * (r / 100))
@@ -205,7 +203,17 @@ while (selection != "0"):
             for r in range(-10, 10, 2):
                 new_income = income + (income * (r / 100))
                 print("Percent: ", r, "Income: ", new_income, "Profit/Loss:", new_income - expenses)
+        else :
+            profitLoss = income - expenses
+            income_serving_breakeven = income_serving
+            if (profitLoss < 0):
+                increment = .01 
+            elif (profitLoss > 0):
+                increment = - .01 
+            else :
+                increment = 0
+            while (income_serving_breakeven > )
+            print("Break-Even occurs with a selling price of:", income_serving)
 
 print("Bye")
-
 
