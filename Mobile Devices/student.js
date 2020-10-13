@@ -1,12 +1,17 @@
-//tsc --target ES5 student.ts (for setters)
+"use strict";
+//tsc --target ES5 student.ts (for setters & getters)
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Student = void 0;
 var Student = /** @class */ (function () {
     // constructor
     function Student(id, first_name, last_name) {
         this.id = id;
         this.first_name = first_name;
         this.last_name = last_name;
+        this.classes = [];
     }
     Object.defineProperty(Student.prototype, "set_major", {
+        // accessors
         set: function (major) {
             this.major = major;
         },
@@ -24,14 +29,12 @@ var Student = /** @class */ (function () {
     Student.prototype.print_student_info = function () {
         console.log(this.first_name + " " + this.last_name + " " + this.id);
     };
-    Student.prototype.Register = function () {
-        return 0;
+    Student.prototype.add_Class = function (course) {
+        this.classes.push(course);
+    };
+    Student.prototype.show_Classes = function () {
+        return this.classes;
     };
     return Student;
 }());
-var student_dmay = new Student("0232444", "David", "May");
-student_dmay.print_student_info();
-var student_me = new Student("01235813", "John", "Maher");
-student_me.set_major = "Modile developemnt";
-student_me.print_student_info();
-console.log("Majoring in " + student_me.get_major);
+exports.Student = Student;

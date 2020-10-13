@@ -189,6 +189,10 @@ while (selection != "0"):
         print("Ice cream servings sold per month is", servings_month)
         servings_month = input("Ice cream servings sold per month")
     if (selection == "8") or (selection == "9") or (selection == "10"):
+        print("pre")
+        for r in range (0, 20) :
+            print(r)
+        print("post")
         expenses = (cost_serving * servings_month) + (cost_labor_hour * WORK_DAYS * WORK_HOURS * 4) + cost_rent_month + cost_utilities + cost_ad_month
         income = income_serving * servings_month 
         if (selection == "8"):
@@ -204,16 +208,21 @@ while (selection != "0"):
                 new_income = income + (income * (r / 100))
                 print("Percent: ", r, "Income: ", new_income, "Profit/Loss:", new_income - expenses)
         else :
+            increment = .01
             profitLoss = income - expenses
             income_serving_breakeven = income_serving
             if (profitLoss < 0):
-                increment = .01 
+                while (profitLoss < 0) :
+                    income_serving_breakeven += increment
+                    income = income_serving_breakeven * servings_month  
             elif (profitLoss > 0):
-                increment = - .01 
+                while (profitLoss > 0) :
+                    income_serving_breakeven -= increment
+                    profitLoss = income_serving_breakeven * servings_month - expenses
             else :
                 increment = 0
-            while (income_serving_breakeven > )
-            print("Break-Even occurs with a selling price of:", income_serving)
+                print(r, income_serving_breakeven, income, expenses)
+            print("Break-Even occurs with a selling price of:", income_serving_breakeven)
 
 print("Bye")
 

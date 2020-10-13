@@ -1,0 +1,28 @@
+body {
+	background-size:cover;
+	background-color: lightcyan;
+}
+.main {
+	margin:5%;
+	padding:5%;
+	background-color:white;
+	opacity:.8;
+	border-radius:20px;
+	border:2px solid green;
+}
+
+.fancy {
+	background-image:url('Graphics/Leaves.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:white;
+	padding:5%;
+	border-radius:20px;
+	text-align:center;
+	font-family:"Times New Roman", Times, sans-serif;
+	font-size:2em;
+}
+.things {
+	font-family: 'Sansita Swashed', cursive;
+	line-height:1.5;
+}

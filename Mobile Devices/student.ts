@@ -1,6 +1,8 @@
 //tsc --target ES5 student.ts (for setters & getters)
 
-class Student {
+import { Course } from "./Assignment 7/Assignment7"
+
+export class Student {
 
     // properties or attributes
     id:string
@@ -8,7 +10,7 @@ class Student {
     last_name:string
     major:string
     gpa:number
-    classes
+    classes:Course[]
 
 
     // accessors
@@ -27,6 +29,7 @@ class Student {
         this.id = id;
         this.first_name = first_name;
         this.last_name = last_name;
+        this.classes = [];
 
     }
 
@@ -37,17 +40,15 @@ class Student {
 
     }
 
-    Register() {
+    add_Class(course:Course) {
 
-        return 0;
+        this.classes.push(course);
+    }
+
+    show_Classes() {
+
+        return this.classes;
+
     }
 }
 
-
-let student_dmay = new Student("0232444", "David", "May");
-student_dmay.print_student_info();
-
-let student_me = new Student("01235813", "John", "Maher");
-student_me.set_major = "Modile developemnt";
-student_me.print_student_info();
-console.log("Majoring in " + student_me.get_major);
