@@ -5,11 +5,15 @@
 # 9/16/2020
 
 
-def skip_integers(*args):
+def exponential(number, power):
 
-    for arg in args: 
-        if type(arg) == int:
-            continue
-        print(arg)
+    return number ** power 
 
-skip_integers(3, 5.2, "value", 6.0)
+oneoverx = lambda number : 1.0 / number
+greeting = lambda name : "Hello " + name
+
+print(exponential(2, 6))
+print(oneoverx(8))
+print(greeting("George"))
+
+
