@@ -21,14 +21,14 @@ import java.util.*;
 
 class Card {
 
-	final String CLUBS_DARK = "\u2663"; 	  // ♣
-	final String CLUBS_LIGHT = "\u2667"; 	  // ♧
+	final String CLUBS_DARK = "\u2663"; 	// ♣
+	final String CLUBS_LIGHT = "\u2667";    // ♧
 	final String DIAMONDS_DARK = "\u2666";  // ♦
 	final String DIAMONDS_LIGHT = "\u2662"; // ♢
-	final String HEARTS_DARK = "\u2665"; 	  // ♥
+	final String HEARTS_DARK = "\u2665";    // ♥
 	final String HEARTS_LIGHT = "\u2661"; 	// ♡
-	final String SPADES_DARK = "\u2660"; 	  // ♠
-	final String SPADES_LIGHT = "\u2664";  // ♤
+	final String SPADES_DARK = "\u2660";    // ♠
+	final String SPADES_LIGHT = "\u2664";   // ♤
 		
     private int rank;
     private String suit;
@@ -345,12 +345,12 @@ class Hand extends ArrayList<Card> {
 
 class Player {
 
-    private boolean dealer = false;
+  private boolean dealer = false;
 	private Hand cards;
 	private int score;
-    private boolean turn; // if true then it is this players turn
+  private boolean turn; // if true then it is this players turn
 	
-    public String Name;
+  public String Name;
 	
 	Player() {
 
@@ -441,8 +441,7 @@ class midterm {
                     BW,     // black and white
                     TEXT }; // default
 
-    //static Display display = Display.COLOR;
-    static Display display = Display.BW;
+    static Display display = Display.COLOR;
     
     // ANSI
     static final String RESET = "\033[0m";  // Text Reset
@@ -504,88 +503,12 @@ class midterm {
 
         final String CARD_BACK = "\u2592";
         final String CARD_BACK_COLOR = "\033[0;94;107m";// blue w/ bright white background
-        final String CARD_BACK_TOP_LEFT = "\u2554";
-        final String CARD_BACK_TOP_RIGHT = "\u2557";
-        final String CARD_BACK_BOTTOM_LEFT = "\u255A";
-        final String CARD_BACK_BOTTOM_RIGHT = "\u255D";
-        final String CARD_BACK_SIDE_HORIZONTAL = "\u2550";
-        final String CARD_BACK_SIDE_VERTICLE = "\u2551";
         final String CARD_TOP_LEFT = "\u250D";
         final String CARD_TOP_RIGHT = "\u2511";
         final String CARD_BOTTOM_LEFT = "\u2515";
         final String CARD_BOTTOM_RIGHT = "\u2519";
         final String CARD_SIDE_HORIZONTAL = "\u2501";
         final String CARD_SIDE_VERTICLE = "\u2502";
-        
-        // Regular Colors
-        final String BLACK = "\033[0;30m";   // BLACK
-        final String RED = "\033[0;31m";     // RED
-        final String GREEN = "\033[0;32m";   // GREEN
-        final String YELLOW = "\033[0;33m";  // YELLOW
-        final String BLUE = "\033[0;34m";    // BLUE
-        final String PURPLE = "\033[0;35m";  // PURPLE
-        final String CYAN = "\033[0;36m";    // CYAN
-        final String WHITE = "\033[0;37m";   // WHITE
-        
-        // Bold
-        final String BLACK_BOLD = "\033[1;30m";  // BLACK
-        final String RED_BOLD = "\033[1;31m";    // RED
-        final String GREEN_BOLD = "\033[1;32m";  // GREEN
-        final String YELLOW_BOLD = "\033[1;33m"; // YELLOW
-        final String BLUE_BOLD = "\033[1;34m";   // BLUE
-        final String PURPLE_BOLD = "\033[1;35m"; // PURPLE
-        final String CYAN_BOLD = "\033[1;36m";   // CYAN
-        final String WHITE_BOLD = "\033[1;37m";  // WHITE
-        
-        // Underline
-        final String BLACK_UNDERLINED = "\033[4;30m";  // BLACK
-        final String RED_UNDERLINED = "\033[4;31m";    // RED
-        final String GREEN_UNDERLINED = "\033[4;32m";  // GREEN
-        final String YELLOW_UNDERLINED = "\033[4;33m"; // YELLOW
-        final String BLUE_UNDERLINED = "\033[4;34m";   // BLUE
-        final String PURPLE_UNDERLINED = "\033[4;35m"; // PURPLE
-        final String CYAN_UNDERLINED = "\033[4;36m";   // CYAN
-        final String WHITE_UNDERLINED = "\033[4;37m";  // WHITE
-        
-        // Background
-        final String BLACK_BACKGROUND = "\033[40m";  // BLACK
-        final String RED_BACKGROUND = "\033[41m";    // RED
-        final String GREEN_BACKGROUND = "\033[42m";  // GREEN
-        final String YELLOW_BACKGROUND = "\033[43m"; // YELLOW
-        final String BLUE_BACKGROUND = "\033[44m";   // BLUE
-        final String PURPLE_BACKGROUND = "\033[45m"; // PURPLE
-        final String CYAN_BACKGROUND = "\033[46m";   // CYAN
-        final String WHITE_BACKGROUND = "\033[47m";  // WHITE
-        
-        // High Intensity
-        final String BLACK_BRIGHT = "\033[0;90m";  // BLACK
-        final String RED_BRIGHT = "\033[0;91m";    // RED
-        final String GREEN_BRIGHT = "\033[0;92m";  // GREEN
-        final String YELLOW_BRIGHT = "\033[0;93m"; // YELLOW
-        final String BLUE_BRIGHT = "\033[0;94m";   // BLUE
-        final String PURPLE_BRIGHT = "\033[0;95m"; // PURPLE
-        final String CYAN_BRIGHT = "\033[0;96m";   // CYAN
-        final String WHITE_BRIGHT = "\033[0;97m";  // WHITE
-        
-        // Bold High Intensity
-        final String BLACK_BOLD_BRIGHT = "\033[1;90m"; // BLACK
-        final String RED_BOLD_BRIGHT = "\033[1;91m";   // RED
-        final String GREEN_BOLD_BRIGHT = "\033[1;92m"; // GREEN
-        final String YELLOW_BOLD_BRIGHT = "\033[1;93m";// YELLOW
-        final String BLUE_BOLD_BRIGHT = "\033[1;94m";  // BLUE
-        final String PURPLE_BOLD_BRIGHT = "\033[1;95m";// PURPLE
-        final String CYAN_BOLD_BRIGHT = "\033[1;96m";  // CYAN
-        final String WHITE_BOLD_BRIGHT = "\033[1;97m"; // WHITE
-        
-        // High Intensity backgrounds
-        final String BLACK_BACKGROUND_BRIGHT = "\033[0;100m";  // BLACK
-        final String RED_BACKGROUND_BRIGHT = "\033[0;101m";    // RED
-        final String GREEN_BACKGROUND_BRIGHT = "\033[0;102m";  // GREEN
-        final String YELLOW_BACKGROUND_BRIGHT = "\033[0;103m"; // YELLOW
-        final String BLUE_BACKGROUND_BRIGHT = "\033[0;104m";   // BLUE
-        final String PURPLE_BACKGROUND_BRIGHT = "\033[0;105m"; // PURPLE
-        final String CYAN_BACKGROUND_BRIGHT = "\033[0;106m";   // CYAN
-        final String WHITE_BACKGROUND_BRIGHT = "\033[0;107m";  // WHITE
         
         final int WENT_OVER = -1;
 
@@ -829,8 +752,8 @@ class midterm {
 			computer.Cards().AddNewCard(stock.Deal());
 			opponent.Cards().AddNewCard(stock.Deal());
 			computer.Cards().AddNewCard(stock.Deal());
-            SetPlayerTurn(opponent, computer);
-            ShownComputerCards = false;
+      SetPlayerTurn(opponent, computer);
+      ShownComputerCards = false;
 
 			while (!handOver) {
 
@@ -847,11 +770,11 @@ class midterm {
  
 					case HIT :{
 						if (stock.hasCards()) {
-                            System.out.println("Dealing a card");
+              System.out.println("Dealing a card");
 							opponent.Cards().AddNewCard(stock.Deal());
 							if (opponent.isBusted()) {
-                                System.out.println("Busted!");
-                                DrawScreen(opponent, computer);
+                System.out.println("Busted!");
+                DrawScreen(opponent, computer);
 								handOver = true;
 							}
 						} else {
@@ -886,15 +809,15 @@ class midterm {
 			}
 						
             
-            SetComputerTurn(opponent, computer);
+      SetComputerTurn(opponent, computer);
 			if (!opponent.isBusted() && !deckOut) {
 				// Computer Decides
 				while (computer.getPoints() < HOUSE_STAND && !computer.isBusted()) {
 					if (stock.hasCards()) {
 						computer.Cards().AddNewCard(stock.Deal());
-                        System.out.println("Computer takes a hit");
+            System.out.println("Computer takes a hit");
 						DrawScreen(opponent, computer);
-                        ShownComputerCards = true;
+            ShownComputerCards = true;
 					} else {
 						deckOut = true;
 						handOver = true;

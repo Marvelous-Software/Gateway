@@ -1,0 +1,104 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>test-form</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  {{message}}
+
+  <form [formGroup]='testform'>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-input formControlName="name" type="text" placeholder="Name"></ion-input>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-input formControlName="email" type="text" placeholder="Email"></ion-input>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox formControlName="cbprimary" color="primary"></ion-checkbox>
+            <ion-label>Pri</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox formControlName="cbprimary" color="secondary"></ion-checkbox>
+            <ion-label>Second</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="tertiary" disabled=true checked="true">Tertiary</ion-checkbox>
+            <ion-label>Tert</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="success" checked="true">Success</ion-checkbox>
+            <ion-label>Suc</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="warning" checked="true"></ion-checkbox>
+            <ion-label>Warn</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="danger" checked="true"></ion-checkbox>
+            <ion-label>Dan</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="light" checked="true"></ion-checkbox>
+            <ion-label>Light</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="medium" checked="true"></ion-checkbox>
+            <ion-label>Med</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="dark" checked="true"></ion-checkbox>
+            <ion-label>Dark</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="submitForm()" type="submit" [disabled]="testform.invalid">Submit</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="showHome()" type="cancel">Cancel</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </form>
+
+</ion-content>
+
+<ion-footer>
+  {{copy}}
+</ion-footer>
