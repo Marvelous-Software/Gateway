@@ -1,0 +1,65 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>form-in-class</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]='forminclass'>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-label>My Phone is a </ion-label>
+        </ion-col>
+        <ion-col>
+          <ion-input formControlName="phone" type="text" placeholder="Phone"></ion-input>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-label>In general I prefer:</ion-label>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox formControlName="cbapple" color="success" ></ion-checkbox>
+            <ion-label>iOS</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox formControlName="cbgoogle" color="dark" ></ion-checkbox>
+            <ion-label>Android</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-label>Comments:</ion-label>
+          <ion-textarea formControlName="comments" placeholder="Comments"></ion-textarea>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="submitForm()" type="submit" [disabled]="forminclass.invalid">Submit</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </form>
+
+</ion-content>
+
+<ion-footer>
+</ion-footer>

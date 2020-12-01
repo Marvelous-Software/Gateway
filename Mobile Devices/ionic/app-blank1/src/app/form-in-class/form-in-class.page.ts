@@ -1,0 +1,35 @@
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
+
+@Component({
+  selector: 'app-form-in-class',
+  templateUrl: './form-in-class.page.html',
+  styleUrls: ['./form-in-class.page.scss'],
+})
+export class FormInClassPage implements OnInit {
+
+  forminclass: FormGroup
+
+  constructor(private fb: FormBuilder, private route: Router) { 
+
+    // create the form and store it as an object
+    this.forminclass = this.fb.group ({
+      phone: ["", Validators.compose([Validators.required, Validators.minLength(3), Validators.maxLength(20)])] , 
+      cbapple: [false] , 
+      cbgoogle: [false] , 
+      comments: [""] , 
+    }) 
+
+  }
+
+  submitForm() {
+
+    console.log(this.forminclass.value)
+
+  }
+  
+  ngOnInit() {
+  }
+
+}

@@ -15,5 +15,9 @@ export class HomePage {
     this.route.navigate(['/test-form']);
   }
 
+  showInClassForm() {
+    this.route.navigate(['/form-in-class']);
+  }
+
 }
 

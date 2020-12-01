@@ -1,46 +1,40 @@
 # John Maher
 # Gateway - Python
 # Henry Long
-# Lab 7.5
-# 11/16/2020
+# Lab 7.6
+# 11/23/2020
 
 
-class MoviePlayer:
+class Bird:
+    def __init__(self, wingspan, lifespan, speed):
+        self.wingspan = wingspan
+        self.lifespan_in_years = lifespan
+        self.speed_in_mph = speed
 
-    current_movie = ""
+    def __str__(self):
+        return f"The {type(self).__name__.lower()} "\
+            f"has a wingspan up to {self.wingspan}ft,"\
+            f" has a lifespan of {self.lifespan_in_years} years and "\
+            f"can fly at a maximum speed of {self.speed_in_mph}mph."
 
-    firmware_version = 1.0
+class Eagle(Bird):
 
-    def __init__(self):
+    clutch_size = 0
 
-        self.__movies = []
-        self.__movies.append("Star Wars")
-        self.__movies.append("Jaws")
-        self.__movies.append("Its a mad mad mad mad mad world")
+    def __init__(self, wingspan, lifespan, speed):
+        self.wingspan = wingspan
+        self.lifespan_in_years = lifespan
+        self.speed_in_mph = speed
+        self.clutch_size = 3
 
-    def list_movies(self):
+    def __str__(self):
+        return f"The {type(self).__name__.lower()} "\
+            f"has a wingspan up to {self.wingspan}ft,\n"\
+            f" has a lifespan of {self.lifespan_in_years} years and \n"\
+            f"can fly at a maximum speed of {self.speed_in_mph}mph\n"\
+            f"with a clutch size of {self.clutch_size}."
 
-        return self.__movies
-
-    def play(self):
-
-        self.current_movie = self.__movies[0]
-
-    def update_firmware(self, newfirmware):
-
-        if newfirmware > self.firmware_version:
-            self.firmware_version = newfirmware
-
-
-
-# The code below is used to test your class
+# This code is used to test your class
 if __name__ == '__main__':
-    player = MoviePlayer()
-    print("Movies currently on device:", player.list_movies())
-
-    player.update_firmware(2.0)
-    print("Updated player firmware version to", player.firmware_version)
-
-    player.play()
-    print("Currently playing", f"'{player.current_movie}'")
-
+    eagle = Eagle(7.5, 20, 99)
+    print(eagle)
