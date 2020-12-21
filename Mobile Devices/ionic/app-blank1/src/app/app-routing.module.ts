@@ -12,8 +12,12 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'test-form',
+    path: 'test-form_original/:id',
     loadChildren: () => import('./test-form/test-form.module').then( m => m.TestFormPageModule)
+  },
+  {
+    path: 'test-form',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
     path: 'form-in-class',

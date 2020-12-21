@@ -1,0 +1,70 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 3
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 3</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <form [formGroup]='page3'>
+
+      <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-input formControlName="name" type="text" placeholder="Name"></ion-input>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-input formControlName="email" type="email" placeholder="Email"></ion-input>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox formControlName="cbblue" color="primary"></ion-checkbox>
+            <ion-label>Blue</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="success" checked="true">Success</ion-checkbox>
+            <ion-label>Green</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="warning" checked="true"></ion-checkbox>
+            <ion-label>Yellow</ion-label>
+          </ion-item>
+        </ion-col>
+        <ion-col>
+          <ion-item>
+            <ion-checkbox color="danger" checked="true"></ion-checkbox>
+            <ion-label>Red</ion-label>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="submitForm()" type="submit" [disabled]="page3.invalid">Submit</ion-button>
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>
+
+  </form>
+  <app-explore-container name="Tab 3 page"></app-explore-container>
+</ion-content>

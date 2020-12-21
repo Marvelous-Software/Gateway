@@ -272,10 +272,10 @@ class Deck {
     
     public Card Deal() {
         
-        Card card;
+      Card card;
 
-		card = cards.get(TOP_CARD);
-        cards.remove(TOP_CARD);
+		  card = cards.get(TOP_CARD);
+      cards.remove(TOP_CARD);
 
 		return card;
 
@@ -331,13 +331,13 @@ class Hand extends ArrayList<Card> {
 
     public boolean isBusted() {
 
-		return Points() == WENT_OVER;
+		  return Points() == WENT_OVER;
 		
     }
 	
     public int getPoints() {
     	
-		return Points();
+		  return Points();
 		
     }
 
@@ -345,12 +345,12 @@ class Hand extends ArrayList<Card> {
 
 class Player {
 
-  private boolean dealer = false;
-	private Hand cards;
+    private boolean dealer = false;
+    private Hand cards;
 	private int score;
-  private boolean turn; // if true then it is this players turn
+    private boolean turn; // if true then it is this players turn
 	
-  public String Name;
+    public String Name;
 	
 	Player() {
 
@@ -361,22 +361,22 @@ class Player {
 
 	Player(boolean makeDealer) {
 
-        dealer = makeDealer;
-        score = 0;
-        cards = new Hand();
+    dealer = makeDealer;
+    score = 0;
+    cards = new Hand();
 
 	}
 
     public void AddWin() {
-    	
-		score++;
-		
+            
+        score++;
+            
     }
-    
+        
     public Hand Cards() {
-    	
-		return cards;
-		
+            
+        return cards;
+            
     }
 
 	public void FinishHand() {
@@ -752,8 +752,8 @@ class midterm {
 			computer.Cards().AddNewCard(stock.Deal());
 			opponent.Cards().AddNewCard(stock.Deal());
 			computer.Cards().AddNewCard(stock.Deal());
-      SetPlayerTurn(opponent, computer);
-      ShownComputerCards = false;
+            SetPlayerTurn(opponent, computer);
+            ShownComputerCards = false;
 
 			while (!handOver) {
 
@@ -770,11 +770,11 @@ class midterm {
  
 					case HIT :{
 						if (stock.hasCards()) {
-              System.out.println("Dealing a card");
+                            System.out.println("Dealing a card");
 							opponent.Cards().AddNewCard(stock.Deal());
 							if (opponent.isBusted()) {
-                System.out.println("Busted!");
-                DrawScreen(opponent, computer);
+                                System.out.println("Busted!");
+                                DrawScreen(opponent, computer);
 								handOver = true;
 							}
 						} else {
@@ -809,15 +809,15 @@ class midterm {
 			}
 						
             
-      SetComputerTurn(opponent, computer);
+            SetComputerTurn(opponent, computer);
 			if (!opponent.isBusted() && !deckOut) {
 				// Computer Decides
 				while (computer.getPoints() < HOUSE_STAND && !computer.isBusted()) {
 					if (stock.hasCards()) {
 						computer.Cards().AddNewCard(stock.Deal());
-            System.out.println("Computer takes a hit");
+                        System.out.println("Computer takes a hit");
 						DrawScreen(opponent, computer);
-            ShownComputerCards = true;
+                        ShownComputerCards = true;
 					} else {
 						deckOut = true;
 						handOver = true;

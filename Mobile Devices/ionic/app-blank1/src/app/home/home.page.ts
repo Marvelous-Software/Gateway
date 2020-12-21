@@ -12,7 +12,7 @@ export class HomePage {
   constructor(private route: Router) {}
 
   showTestForm() {
-    this.route.navigate(['/test-form']);
+    this.route.navigate(['/test-form_original/42']);
   }
 
   showInClassForm() {

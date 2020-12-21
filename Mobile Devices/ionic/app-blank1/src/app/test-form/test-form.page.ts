@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { UserValidator } from './user.validator';
+import { ActivatedRoute } from '@angular/router'; //For parameters
 
 
 @Component({
@@ -11,6 +12,7 @@ import { UserValidator } from './user.validator';
 })
 export class TestFormPage implements OnInit {
 
+  id = null
   message = "In this page we are going to try to implement a form"
   copy = "Copyright 1887"
   week = `      <ion-row>
@@ -41,7 +43,7 @@ week2 = "      <ion-row><ion-col>  <ion-label (click)='showDate(11)'>11</ion-lab
   testform: FormGroup
 
   
-  constructor(private fb: FormBuilder, private route: Router) { 
+  constructor(private fb: FormBuilder, private route: Router, private activatedRoute:ActivatedRoute) { 
 
     // create the form and store it as an object
     this.testform = this.fb.group ({
@@ -63,6 +65,7 @@ week2 = "      <ion-row><ion-col>  <ion-label (click)='showDate(11)'>11</ion-lab
   }
   
   ngOnInit() {
+    this.id = this.activatedRoute.snapshot.paramMap.get('id')
   }
 
   showDate(date) {

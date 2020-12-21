@@ -1,7 +1,7 @@
 
 <!-- # 
 John Maher
-Gateway - Mobile Devices
+Gateway - PHP
 Mirco Speretta
 Assignment 4
 9/21/2020

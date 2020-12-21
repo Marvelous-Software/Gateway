@@ -34,6 +34,8 @@ class AccessApi:
         ----------
         url: str
            a valid website forexample: http://google.com
+        end_point: str
+            a valid endpoint on a website  "api/sites/master.json"
         """
         self.url = url
 
@@ -49,33 +51,42 @@ class AccessApi:
         
     #4
     def url_active(self) -> bool:
-       return requests.get(self.url).url != null
+       return requests.get(self.url).status_code == 200
 
     #5
     def get_end_point(self, end_point:str) -> dict:
         """
-            Parameters
-            ----------
-            end_point: str
-               a valid endpoint on a website  "api/sites/master.json"
+        Parameters
+        ----------
+        end_point: str
+            a valid endpoint on a website  "api/sites/master.json"
         """
+        response = requests.get(self.url + "/" + end_point)
+        with open('response.json') as d:
+            dictData = json.load(d)
+        return dictData
+        
     #6
     def get_status_code(self, end_point:str) -> int:
         """
-            Parameters
-            ----------
-            end_point: str
-               a valid endpoint on a website  "api/sites/master.json"
+        Parameters
+        ----------
+        end_point: str
+            a valid endpoint on a website  "api/sites/master.json"
         """
+        response = requests.get(self.url + "/" + end_point)
+        return response.status_code
 
     #7
     def get_elapsed_time(self, end_point:str) -> float:
         """
-            Parameters
-            ----------
-            end_point: str
-               a valid endpoint on a website  "api/sites/master.json"
+        Parameters
+        ----------
+        end_point: str
+            a valid endpoint on a website  "api/sites/master.json"
         """
+        response = requests.get(self.url + "/" + end_point)
+        return response.elapsed
 
 
 

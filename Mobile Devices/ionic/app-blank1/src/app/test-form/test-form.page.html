@@ -9,7 +9,12 @@
 
   <form [formGroup]='testform'>
 
-    <ion-grid>
+    {{id}}
+    
+    <ion-button expand=block routerLink="/form-in-class" routerDirection="root">
+      Go To In Class Form
+    </ion-button>
+      <ion-grid>
       <ion-row>
         <ion-col>
           <ion-input formControlName="name" type="text" placeholder="Name"></ion-input>
