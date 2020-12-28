@@ -21,24 +21,86 @@ def drawVariable(t, x, y, name, value=""):
   t.forward(50)
   t.right(90)
 
-def drawBackground():
+def drawBackground(s):
+
+# _________________________
+# |  1  |        2        |
+# |     |                 |
+# |     |                 |
+# |     |                 |
+#
+# Section 1 presents the value
+# Section 2 displays the statement
+
+
+  screenHeight = s.screensize()[1]
+  screenWidth = s.screensize()[0]
+  offsetx2ndSection = screenWidth * .25
+  x2ndSectionWidth = screenWidth * .75
+  y2ndSectionHeight = screenHeight * .75
+  margin = screenWidth * .025
+  corner = x2ndSectionWidth * .1
+
   b = turtle.Turtle()
-  b.sety(25)
-  b.write(turtle.screensize(), font=("Courier New", 18, "bold")) 
-  b.fillcolor("red")
-  #window_width()
-  #window_height()
+  turtleDefaults(b)
+  b.up()
+  b.goto(offsetx2ndSection * .88, (margin + corner) * .8)
+  b.fillcolor("wheat")
+  b.pencolor("azure2")
+  b.down()
+  b.begin_fill()
+  b.rt(90)
+  b.circle(60, 90)
+  b.fd(x2ndSectionWidth - corner * 2 - margin)  
+  b.circle(60, 90)
+  b.fd(y2ndSectionHeight - corner * 2 - margin)  
+  b.circle(60, 90)
+  b.fd(x2ndSectionWidth - corner * 2 - margin)  
+  b.circle(60, 90)
+  b.fd(y2ndSectionHeight - corner * 2 - margin)  
+  b.circle(60, 90)
+  b.end_fill()
+  b.up()
+  b.goto(offsetx2ndSection, margin + corner)
+  b.fillcolor("black")
+  b.pencolor("yellow")
+  b.down()
+  b.begin_fill()
+  b.rt(90)
+  b.circle(60, 90)
+  b.fd((x2ndSectionWidth - corner * 2 - margin) * .9)
+  b.circle(60, 90)
+  b.fd((y2ndSectionHeight - corner * 2 - margin)   * .8)
+  b.circle(60, 90)
+  b.fd((x2ndSectionWidth - corner * 2 - margin) * .9)
+  b.circle(60, 90)
+  b.fd((y2ndSectionHeight - corner * 2 - margin) * .8)  
+  b.circle(60, 90)
+  b.end_fill()
+  b.up()
+  b.goto(offsetx2ndSection + (corner / 2), y2ndSectionHeight -  (corner / 2))
+  b.pencolor("gray")
+  #b.write(b.pos(), font=("Courier New", 18, "bold")) 
+  b.write("Marv quad speed", font=("Times New Roman", 18)) 
 
   
-def drawGraph():
+def drawGraph(s):
   g = turtle.Turtle()
-  #turtleDefaults(g)
-  #for y in range(10, 600, 10):
-  for x in range(10, 800, 10):
-    g.up()
-    g.goto(0, x)
+  s.tracer(0, 0)
+  turtleDefaults(g)
+  g.lt(90)
+  for x in range(0, 800, 10):
+    g.up()    
+    g.goto(x, 0)
     g.down()
-    g.fd(570)
+    g.fd(600)
+  g.rt(90)
+  for y in range(0, 600, 10):
+    g.up()
+    g.goto(0, y)
+    g.down()
+    g.fd(800)
+  s.update()
 
 def playWinSound():
   # Source of sound effect: https://www.youtube.com/watch?v=dAVzcGcVecU\
@@ -68,8 +130,8 @@ s.bgcolor("cyan")
 t = turtle.Turtle()
 turtleDefaults(t)
 
-drawBackground()
-drawGraph()
+drawBackground(s)
+#drawGraph(s)
 
 
 s.onscreenclick(onClick)

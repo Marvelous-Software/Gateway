@@ -1,3 +1,10 @@
+# turtle speed:
+#  ‘fastest’ :  0
+#  ‘fast’    :  10
+#  ‘normal’  :  6
+#  ‘slow’    :  3
+#  ‘slowest’ :  1
+
 from threading import Timer
 import turtle
 import winsound
