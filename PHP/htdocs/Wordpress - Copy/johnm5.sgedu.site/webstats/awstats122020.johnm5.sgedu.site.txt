@@ -1,0 +1,562 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202012 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.johnm5.sgedu.site.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2000                
+POS_TIME 2678                
+POS_VISITOR 8900                
+POS_DAY 11867               
+POS_DOMAIN 3366                
+POS_LOGIN 3791                
+POS_ROBOT 3946                
+POS_WORMS 4338                
+POS_EMAILSENDER 4469                
+POS_EMAILRECEIVER 4612                
+POS_SESSION 12232               
+POS_SIDER 12438               
+POS_FILETYPES 4747                
+POS_DOWNLOADS 5059                
+POS_OS 5107                
+POS_BROWSER 5302                
+POS_SCREENSIZE 6176                
+POS_UNKNOWNREFERER 6250                
+POS_UNKNOWNREFERERBROWSER 6474                
+POS_ORIGIN 6590                
+POS_SEREFERRALS 6732                
+POS_PAGEREFS 6897                
+POS_SEARCHWORDS 7071                
+POS_KEYWORDS 7223                
+POS_MISC 2340                
+POS_ERRORS 7282                
+POS_CLUSTER 3647                
+POS_SIDER_404 7469                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201227014010 4414 1570598 0
+FirstTime 20201209235219
+LastTime 20201225192206
+LastUpdate 20201227043125 4414 4137 5 0 272
+TotalVisits 97                  
+TotalUnique 67                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 83                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 159 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 529 958 35290534 125 212 878863
+1 460 759 17298555 133 192 1252573
+2 22 26 171917 7 9 92266
+3 9 9 702 7 8 6760
+4 3 3 234 3 3 736
+5 1 1 368 2 2 736
+6 2 2 736 4 4 64867
+7 4 4 1472 1 1 368
+8 2 24 1471704 3 3 910
+9 1 1 368 5 5 71595
+10 0 0 0 3 3 63588
+11 1 1 368 12 12 130524
+12 1 1 255 1 1 0
+13 1 1 368 9 9 64065
+14 13 57 3696213 9 14 64189
+15 17 46 1831139 4 4 26312
+16 0 0 0 5 5 63987
+17 173 297 5228326 22 22 98
+18 274 275 2403566 8 8 22997
+19 444 509 7725038 11 11 46281
+20 0 0 0 0 0 0
+21 0 0 0 1 1 0
+22 45 87 1846804 3 3 33
+23 287 465 10387267 58 84 511125
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+us 2190 3405 84538661
+de 32 32 567207
+fr 17 17 3907
+gb 11 11 2417
+in 10 32 2193232
+ca 5 5 535
+bz 4 4 428
+ru 4 4 615
+unknown 4 4 738
+ch 4 4 428
+gr 3 3 534
+pl 1 1 23292
+nl 1 1 151
+ar 1 1 243
+at 1 1 23292
+sk 1 1 254
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+wordpress 192 1163177 20201227014010 0
+no_user_agent 42 339516 20201222171434 0
+MSIE[\x20]6 6 541146 20201210001316 0
+bot[\s_+:,\.\;\/\\-] 5 218755 20201225154035 0
+PhantomJS 4 17011 20201210005036 0
+unknown 3 370 20201222230146 3
+baidu 1 259 20201210010035 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 248 1752302 0 0
+png 79 25910788 0 0
+ttf 1 188508 0 0
+env 9 963 0 0
+woff2 15 1293720 0 0
+php 1236 18195194 0 0
+html 547 7789112 0 0
+site 1 0 0 0
+jpg 131 18417839 0 0
+js 722 13198300 0 0
+Unknown 480 259692 0 0
+gif 41 333422 0 0
+svg 16 16094 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+linuxandroid 2 2
+winxp 15 15
+ios_iphone 6 6
+linux 9 9
+win7 9 9
+macosx 294 80
+win16 2 2
+macosx9 2 2
+Unknown 52 52
+win10 3135 2112
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 41
+firefox28.0 1 1
+firefox66.0 1 1
+safari13.1.2 1 1
+chrome84.0.4143.7 4 4
+android 2 2
+chrome87.0.4280.88 3175 2088
+edge12 1 1
+chrome86.0.4240.183 7 7
+chrome36.0.1944.0 1 1
+chrome67.0.3396.79 5 5
+chrome72.0.3626.121 2 2
+chrome86.0.4240.193 1 1
+chrome71.0.3578.98 3 3
+chrome74.0.3729.157 3 3
+safari14.0 4 4
+chrome87.0.4280.66 3 3
+firefox64.0 2 2
+chrome76.0.3809.71 2 2
+chrome79.0.3945.130 28 3
+chrome40.0.2214.85 3 3
+chrome83.0.4103.61 1 1
+chrome74.0.3729.169 1 1
+msie9.0 2 2
+Unknown 44 44
+chrome65.0.3325.181 2 2
+firefox82.0 3 3
+firefox84.0 35 3
+chrome68.0.3440.106 9 9
+chrome76.0.3809.100 1 1
+firefox58.0 8 8
+chrome87.0.4280.67 129 43
+chrome80.0.3987.149 2 2
+msie11.0 3 3
+chrome67.0.3396.99 2 2
+chrome86.0.4240.198 1 1
+mozilla 8 8
+netscape5.0 1 1
+chrome79.0.3945.136 8 1
+chrome80.0.3987.132 1 1
+firefox 15 15
+safari14.0.1 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20201209235229
+Go-http-client/1.1 20201210002030
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Go-http-client/1.1 20201210002030
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 233 233
+From1 1 1
+From2 15 15
+From3 1 1
+From4 2039 3276
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 15 15
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://wordpress.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+403 2 32630
+400 2 804
+401 2 276
+302 62 423
+201 3 12220
+499 12 0
+444 6 0
+500 20 71132
+404 68 959050
+301 21 803
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 21
+/iLNSLfWT.site 1 https://www.johnm5.sgedu.site/iLNSLfWT.site
+/wp-content/plugins/icyclub/assets/js/customize.css 3 http://johnm5.sgedu.site/wp-admin/customize.php
+/v2/_catalog 3 -
+/mod2assign2/wp-content/uploads/2018/09/Photo-Sep-19-5-09-17-AM-300x225.jpg 1 -
+/Site3/Graphics/eddie_head.png 3 https://www.johnm5.sgedu.site/
+/garyn.sgedu.site 7 https://www.johnm5.sgedu.site/garyn.sgedu.site
+/asset-manifest.json 2 http://johnm5.sgedu.site/
+/sample-page/ 1 -
+/wp-content/plugins/icyclub/assets/js/customizer.js 4 http://johnm5.sgedu.site/
+/wp_auto_login_10eea32bc04d52487f44287b33713e34.php 1 https://tools.siteground.com/
+/customer_card/ 1 -
+/wp-admin/admin-ajax.php 23 http://johnm5.sgedu.site/wp-admin/admin.php
+/wp-content/themes/consultup/css/bootstrap.css.map 6 -
+/api/v1/pods 1 -
+/2020/12/15/hello-world/ 1 http://johnm5.sgedu.site/2020/12/15/hello-world/
+/.env 3 -
+/.git/config 3 -
+/wp-content/themes/businessup/images/slide/slide.jpg 1 http://johnm5.sgedu.site/
+/wp-content/themes/businessup/css/bootstrap.css.map 1 -
+/2020/12/16/hello-world/ 1 http://johnm5.sgedu.site/2020/12/16/hello-world/
+/customercard/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 83
+73.227.35.206 2057 3009 73996603 20201224152740
+71.234.57.142 73 287 8890418 20201223142335
+52.247.232.23 15 15 5523 20201210012300
+116.202.166.126 8 8 721528 20201210003508
+54.39.16.73 5 5 535 20201209235610
+23.254.229.202 5 5 1840 20201210134531
+185.220.101.15 5 5 535 20201209235526
+69.25.58.62 5 5 227117 20201210005441
+185.220.101.198 5 5 535 20201210002026
+51.77.150.155 5 5 535 20201210002030
+45.40.123.114 1 1 254 20201210010412
+40.94.35.53 0 1 7412 
+206.217.129.234 1 1 162 20201210005034
+34.211.6.84 1 1 87 20201209235229
+40.94.35.100 0 2 41474 
+40.94.25.92 1 6 45128 20201217000529
+52.114.128.37 1 1 162 20201210005204
+205.251.142.101 2 2 445 20201210010039
+40.94.35.82 1 1 1446 20201222171445
+40.94.25.25 0 3 37606 
+107.147.183.220 1 1 368 20201210074518
+144.76.57.4 3 3 180568 20201210004909
+91.192.103.11 4 4 428 20201210001947
+178.128.140.117 3 3 534 20201210005403
+40.94.35.27 0 3 44079 
+54.221.27.173 2 2 510 20201210195125
+52.28.236.88 1 1 87 20201209235219
+46.38.235.14 1 1 23292 20201209235950
+157.47.204.34 2 24 1471704 20201223082535
+77.74.177.113 3 3 453 20201210005202
+168.151.200.99 1 1 151 20201210005128
+40.94.35.17 0 1 2174 
+40.94.25.34 0 3 8622 
+31.220.3.148 4 4 428 20201209235843
+65.154.226.165 1 1 23292 20201209235317
+40.94.35.74 0 1 759 
+159.65.210.36 2 2 452 20201210010106
+40.94.35.54 0 3 8298 
+70.42.131.189 1 1 23292 20201209235426
+193.239.84.121 1 1 204 20201210010108
+138.201.36.136 4 4 360764 20201210003518
+45.134.22.3 2 2 372 20201210004957
+156.146.63.51 1 1 186 20201210005016
+212.83.146.233 2 2 736 20201211154800
+51.15.191.81 2 2 736 20201210070909
+40.94.25.30 0 2 37751 
+62.4.14.206 2 2 736 20201211154525
+45.135.187.25 1 1 162 20201210005033
+87.115.231.207 3 3 631 20201210010035
+40.94.25.8 1 9 469002 20201217000529
+40.94.35.11 0 2 37362 
+217.138.219.180 3 3 704 20201210010218
+18.196.96.172 1 1 87 20201209235229
+40.94.35.36 0 1 1665 
+95.26.50.111 1 1 162 20201210005033
+185.212.171.67 1 1 151 20201210004910
+195.154.61.206 1 1 368 20201210072010
+213.219.39.51 2 2 630 20201210021306
+109.70.100.47 1 1 23292 20201209235849
+66.133.109.36 2 2 174 20201209235229
+51.210.80.127 4 4 428 20201209235544
+40.94.35.32 0 3 12706 
+40.94.25.19 0 3 41458 
+185.220.101.1 4 4 428 20201210001943
+138.246.253.24 2 2 0 20201225192206
+104.243.244.88 1 1 243 20201210014508
+172.245.132.222 1 1 162 20201210005104
+40.94.25.80 0 1 4119 
+66.102.8.24 3 3 52074 20201216013648
+188.72.112.133 1 1 254 20201210014326
+167.172.0.155 1 1 0 20201210011015
+35.202.201.166 2 2 324 20201210005235
+90.187.238.157 1 1 376 20201210014322
+40.94.35.18 0 2 4710 
+3.22.70.135 2 2 174 20201209235229
+185.220.101.20 5 5 535 20201209235924
+62.4.14.198 1 1 368 20201211155041
+70.113.252.114 5 5 1747 20201210013146
+40.94.35.23 2 2 4226 20201222171430
+66.102.8.20 1 1 17358 20201215234739
+145.239.82.229 1 1 23292 20201209235518
+40.94.35.37 0 5 486154 
+34.209.232.166 1 1 87 20201209235219
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20201209 42 42 593864 19
+20201210 121 124 1459464 45
+20201211 4 4 1472 3
+20201214 3 4 155205 1
+20201215 10 28 160693 5
+20201216 315 673 11775804 4
+20201217 360 744 21355354 6
+20201218 1 1 0 1
+20201221 1 8 489262 1
+20201222 1099 1465 26025948 6
+20201223 325 425 25338302 4
+20201224 7 7 566 1
+20201225 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 6
+15mn-30mn 8
+30s-2mn 4
+2mn-5mn 1
+0s-30s 64
+30mn-1h 8
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 119
+/wp-admin/admin-ajax.php 860 1619772 5 8
+/ 287 4492014 68 64
+/wp-json/wp/v2/search 112 13263 0 0
+/wp-json/wp/v2/pages 67 17374 0 0
+/wp-json/wp/v2/users/me 53 17019 0 0
+/wp-json/wp/v2/blocks 53 1501 0 0
+/wp-json/wp/v2/users/ 51 14083 0 0
+/wp-json/ 49 489085 0 0
+/wp-admin/themes.php 41 1218830 0 0
+/wp-admin/nav-menus.php 39 1390949 0 0
+/wp-content/themes/twentytwenty/assets/fonts/inter/Inter-upright-var.woff2 1 223892 0 0
+/wp-json/siteground-wizard/v1/prepare 2 94 0 0
+/wp-admin/post-new.php 18 1459214 0 0
+/wp-json/wp/v2/pages/7/autosaves 4 1819 0 0
+/wp-admin/load-styles.php 25 3216878 0 0
+/v2/_catalog 9 963 2 1
+/wp-admin/index.php 12 225831 0 0
+/wp-admin/users.php 4 81398 0 0
+/wp-json/siteground-wizard/v1/import-sample-data/ 10 470 0 0
+/wp-admin/install.php 2 4292 1 1
+/wp-admin/async-upload.php 17 10345 0 0
+/contact/ 10 198643 0 0
+/wp-json/wp/v2/pages/104 4 4596 0 0
+/bumble/ 2 64346 0 0
+/wp-content/themes/specia/inc/fonts/font-awesome/fonts/fontawesome-webfont.woff2 1 77160 0 0
+/wp-admin/ 6 193504 0 0
+/api/v1/pods 5 535 2 1
+/wp-json/wp/v2/pages/92/autosaves 2 1202 0 0
+/wp-json/wp/v2/pages/49/autosaves 1 245 0 0
+/.git/config 9 963 1 1
+/purchase-order-receipt/ 2 48155 0 0
+/shop-data-maintenance/ 1 24142 0 0
+/wp-admin/user-new.php 2 38847 0 0
+/wp-admin/post.php 36 2863639 0 0
+/wp-content/themes/businessup/fonts/fontawesome-webfont.woff2 6 462960 0 0
+/wp-admin/plugins.php 2 51808 0 0
+/wp-json/wp/v2/pages/88 3 2821 0 0
+/customer%20card/ 3 72413 0 0
+/wp-json/wp/v2/ 2 19705 0 0
+/2020-2/ 1 13119 0 0
+/wp-json/wp/v2/pages/5/autosaves 5 10166 0 0
+/sales-order/ 2 50182 0 0
+/awards/ 8 193033 0 0
+/Site3/ 2 3046 0 0
+/wp-json/themeisle-gutenberg-blocks/v1/save_post_meta/6 2 114 0 0
+/wp-admin/widgets.php 5 224861 0 0
+/wp-json/themeisle-gutenberg-blocks/v1/save_post_meta/94 1 57 0 0
+/wp-json/wp/v2/pages/51 2 1175 0 0
+/artist-single-artwork/ 1 12348 0 0
+/wp-json/wp/v2/pages/92 6 4894 0 0
+/wp-admin/load-scripts.php 21 829971 0 0
+/wp-json/wp/v2/pages/53 2 1191 0 0
+/artist-portfolio/ 3 40330 0 0
+/wp-json/wp/v2/pages/90/autosaves 1 596 0 0
+/wp-json/wp/v2/pages/5 7 14170 0 0
+/wp-admin/customize.php 39 3025255 0 0
+/wp-admin/upload.php 9 228162 0 0
+/wp-json/wp/v2/media/25 1 1056 0 0
+/wp-login.php 39 81723 8 5
+/intuitive-erp/ 21 478442 0 0
+/wp-json/wp/v2/users 13 909 0 0
+/.well-known/acme-challenge/eCeOaJ8uL4_UjH-h_pR1JGMk8-3phQS3E5fvpYNPV-I 4 348 4 2
+/wp-content/themes/multipurpose-business/assets/libraries/ionicons/fonts/ionicons.ttf 1 188508 0 0
+/2020/12/16/hello-world/ 3 30130 0 0
+/about/ 21 503273 0 0
+/wp-json/wp/v2/pages/6/autosaves 5 34588 0 0
+/customer-card/ 2 48331 0 0
+/purchase-order/ 3 73210 0 0
+/wp-json/wp/v2/pages/55 2 1199 0 0
+/wp-json/wp/v2/pages/90 2 1437 0 0
+/wp-admin/options-reading.php 2 23177 0 0
+/wp-json/wp/v2/pages/62 7 6468 0 0
+/wp-json/wp/v2/pages/100 4 4008 0 0
+/Site3/contact.html 1 112 0 0
+/wp-json/wp/v2/pages/60 2 1128 0 0
+/wp-json/wp/v2/pages/9 1 3484 0 0
+/sample-page/ 3 53133 0 1
+/wp-admin/admin.php 3 53337 0 0
+/wp-admin/theme-install.php 1 15268 0 0
+/wp-admin/theme-editor.php 12 420672 0 0
+/wp-json/siteground-wizard/v1/install/ 8 376 0 0
+/blog/ 3 52033 0 0
+/.env 9 963 2 4
+/wp-json/wp/v2/pages/98 4 7371 0 0
+/wp-json/wp/v2/pages/64 4 3457 0 0
+/wp-json/wp/v2/pages/64/autosaves 6 8398 0 0
+/wp-json/wp/v2/pages/7 4 2960 0 0
+/wp-admin/plugin-install.php 1 18700 0 0
+/wp-content/plugins/otter-blocks/assets/fontawesome/webfonts/fa-solid-900.woff2 1 79444 0 0
+/wp-json/wp/v2/posts/94 2 1355 0 0
+/shipment/ 6 144428 0 0
+/wp-json/wp/v2/pages/6 6 29070 0 0
+/wp-json/wp/v2/pages/62/autosaves 4 3439 0 0
+/wp-json/wp/v2/pages/102 4 4273 0 0
+/Site3/about.html 1 110 0 0
+/events/ 15 338419 0 1
+/wp-admin/options-media.php 1 10576 0 0
+/wp-admin/options-writing.php 1 11242 0 0
+/wp-admin/profile.php 1 28663 0 0
+/wp-json/siteground-wizard/v1/complete 2 94 0 1
+/garyn.sgedu.site 1 0 1 1
+/wp-json/wp/v2/pages/58 14 18469 0 0
+/wp-json/wp/v2/pages/94 6 7753 0 0
+/.well-known/acme-challenge/P1nduIoakm2m_-ppLjgCPzwbVk3LkqGgE84bCqBowsk 4 348 2 4
+/wp-json/wp/v2/pages/49 2 1196 0 0
+/wp-json/wp/v2/pages/58/autosaves 3 3644 0 0
+/wp-json/siteground-wizard/v1/update-visibility/ 2 94 0 0
+/wp-json/wp/v2/taxonomies/post_tag 18 11961 0 0
+/item-card-2/ 3 68333 0 0
+/wp-admin/setup-config.php 4 7247 1 0
+/wp-content/themes/bizlight/assets/frameworks/Font-Awesome/fonts/fontawesome-webfont.woff2 1 64464 0 0
+/wp-admin/edit.php 34 939606 0 0
+/wp-content/themes/consultup/fonts/fontawesome-webfont.woff2 5 385800 0 2
+/wp-admin/options-discussion.php 1 12735 0 0
+/wp-json/wp/v2/pages/96 6 6521 0 0
+/wp-json/wp/v2/settings/ 11 4658 0 0
+/wp-admin/options-general.php 3 54638 0 0
+/wp-admin/update-core.php 1 27558 0 0
+/cropped-eddie-jpg/ 4 65412 0 0
+END_SIDER

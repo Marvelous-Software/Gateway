@@ -1,0 +1,1384 @@
+# Translation of Themes - Multipurpose Business in English (Canada)
+# This file is distributed under the same license as the Themes - Multipurpose Business package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-03 19:56:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_CA\n"
+"Project-Id-Version: Themes - Multipurpose Business\n"
+
+#. Description of the theme
+msgid "Multipurpose Business is a free, SEO optimized Elegant WordPress theme designed and developed, paying careful attention to detail, to bring you a clean, modern and crisp design with the kinds of useful web elements that help make your website stand out from the crowd. Multipurpose Business is suited for any type of business, company, financial advisor, accountant, marketing, consulting, consulting firm, trader, trading, finance, lawyer, or law firms etc. Multipurpose Business is also compatible and built using the Free Version of Elementor Page Builder. Fast and Easy To Use. View Demo at https://demo.themeinwp.com/multipurpose-business/"
+msgstr "Multipurpose Business is a free, SEO optimised Elegant WordPress theme designed and developed, paying careful attention to detail, to bring you a clean, modern and crisp design with the kinds of useful web elements that help make your website stand out from the crowd. Multipurpose Business is suited for any type of business, company, financial advisor, accountant, marketing, consulting, consulting firm, trader, trading, finance, lawyer, or law firms etc. Multipurpose Business is also compatible and built using the Free Version of Elementor Page Builder. Fast and Easy To Use. View Demo at https://demo.themeinwp.com/multipurpose-business/"
+
+#. Theme Name of the theme
+msgid "Multipurpose Business"
+msgstr "Multipurpose Business"
+
+#. Template Name of the theme
+msgid "Full-Width Template"
+msgstr "Full-Width Template"
+
+#. Template Name of the theme
+msgid "Front Page Template"
+msgstr "Front Page Template"
+
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:68
+msgid "Edit %s"
+msgstr "Edit %s"
+
+#: template-parts/content.php:96 template-parts/content-page.php:56
+#: template-parts/content-single.php:61
+msgid "Pages:"
+msgstr "Pages:"
+
+#: template-parts/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: template-parts/content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: template-parts/content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: single.php:24
+msgid "Previous post:"
+msgstr "Previous post:"
+
+#: single.php:22
+msgid "Next post:"
+msgstr "Next post:"
+
+#: search.php:20
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: inc/widgets/widgets.php:1867
+msgid "Close the map"
+msgstr "Close the map"
+
+#: inc/widgets/widgets.php:1864
+msgid "Open the map"
+msgstr "Open the map"
+
+#: inc/widgets/widgets.php:1805
+msgid "MB :- Contact Widget"
+msgstr "MB :- Contact Widget"
+
+#: inc/widgets/widgets.php:1799
+msgid "Leave this field empty if you do not want to use mag feature"
+msgstr "Leave this field empty if you do not want to use map feature"
+
+#: inc/widgets/widgets.php:1798
+msgid "Google Map Shortcodes:"
+msgstr "Google Map Shortcodes:"
+
+#: inc/widgets/widgets.php:1793
+msgid "Contact Form Shortcodes:"
+msgstr "Contact Form Shortcodes:"
+
+#: inc/widgets/widgets.php:1787
+msgid "Description:"
+msgstr "Description:"
+
+#: inc/widgets/widgets.php:1689
+msgid "show all"
+msgstr "show all"
+
+#: inc/widgets/widgets.php:1628
+msgid "MB :- Portfolio Widget"
+msgstr "MB :- Portfolio Widget"
+
+#: inc/widgets/widgets.php:1619
+msgid "Number of Posts from each:"
+msgstr "Number of Posts from each:"
+
+#: inc/widgets/widgets.php:1614
+msgid "Select Category 6:"
+msgstr "Select Category 6:"
+
+#: inc/widgets/widgets.php:1609
+msgid "Select Category 5:"
+msgstr "Select Category 5:"
+
+#: inc/widgets/widgets.php:1604
+msgid "Select Category 4:"
+msgstr "Select Category 4:"
+
+#: inc/widgets/widgets.php:1599
+msgid "Select Category 3:"
+msgstr "Select Category 3:"
+
+#: inc/widgets/widgets.php:1594
+msgid "Select Category 2:"
+msgstr "Select Category 2:"
+
+#: inc/widgets/widgets.php:1589
+msgid "Select Category 1:"
+msgstr "Select Category 1:"
+
+#: inc/widgets/widgets.php:1574 inc/widgets/widgets.php:1777
+msgid "Displays post form selected category As Project"
+msgstr "Displays post form selected category As Project"
+
+#: inc/widgets/widgets.php:1396
+msgid "MB :- Social Widget"
+msgstr "MB :- Social Widget"
+
+#: inc/widgets/widgets.php:1390
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: inc/widgets/widgets.php:1385
+msgid "FourSquare URL:"
+msgstr "FourSquare URL:"
+
+#: inc/widgets/widgets.php:1380
+msgid "Github URL:"
+msgstr "Github URL:"
+
+#: inc/widgets/widgets.php:1375
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: inc/widgets/widgets.php:1370
+msgid "Whatsapp URL:"
+msgstr "Whatsapp URL:"
+
+#: inc/widgets/widgets.php:1365
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: inc/widgets/widgets.php:1360
+msgid "Youtube URL:"
+msgstr "Youtube URL:"
+
+#: inc/widgets/widgets.php:1355
+msgid "Twitch URL:"
+msgstr "Twitch URL:"
+
+#: inc/widgets/widgets.php:1350
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: inc/widgets/widgets.php:1345
+msgid "Snapchat URL:"
+msgstr "Snapchat URL:"
+
+#: inc/widgets/widgets.php:1340
+msgid "Skype URL:"
+msgstr "Skype URL:"
+
+#: inc/widgets/widgets.php:1335
+msgid "Reddit URL:"
+msgstr "Reddit URL:"
+
+#: inc/widgets/widgets.php:1320
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: inc/widgets/widgets.php:1295
+msgid "Displays Social share."
+msgstr "Displays Social share."
+
+#: inc/widgets/widgets.php:1203
+msgid "MB :- Author Widget"
+msgstr "MB :- Author Widget"
+
+#: inc/widgets/widgets.php:1197 inc/widgets/widgets.php:1330
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: inc/widgets/widgets.php:1192 inc/widgets/widgets.php:1325
+msgid "Instagram URL:"
+msgstr "Instagram URL:"
+
+#: inc/widgets/widgets.php:1187 inc/widgets/widgets.php:1315
+msgid "Googleplus URL:"
+msgstr "Googleplus URL:"
+
+#: inc/widgets/widgets.php:1182 inc/widgets/widgets.php:1310
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: inc/widgets/widgets.php:1177 inc/widgets/widgets.php:1305
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: inc/widgets/widgets.php:1173
+msgid "Author Image:"
+msgstr "Author Image:"
+
+#: inc/widgets/widgets.php:1168 inc/widgets/widgets.php:1584
+msgid "Discription:"
+msgstr "Description:"
+
+#: inc/widgets/widgets.php:1163
+msgid "Name:"
+msgstr "Name:"
+
+#: inc/widgets/widgets.php:1153
+msgid "Displays authors details in post."
+msgstr "Displays authors details in post."
+
+#: inc/widgets/widgets.php:1051
+msgid "MB :- Recent Post"
+msgstr "MB :- Recent Post"
+
+#: inc/widgets/widgets.php:1027
+msgid "Displays post form selected category specific for popular post in sidebars."
+msgstr "Displays post form selected category specific for popular post in sidebars."
+
+#: inc/widgets/widgets.php:935
+msgid "MB :- Client Widget"
+msgstr "MB :- Client Widget"
+
+#: inc/widgets/widgets.php:926
+msgid "Number of Clients:"
+msgstr "Number of Clients:"
+
+#: inc/widgets/widgets.php:916
+msgid "Select Category For Client:"
+msgstr "Select Category For Client:"
+
+#: inc/widgets/widgets.php:906
+msgid "Displays post form selected category As Client Post"
+msgstr "Displays post form selected category As Client Post"
+
+#: inc/widgets/widgets.php:786
+msgid "MB :- Blog Widget"
+msgstr "MB :- Blog Widget"
+
+#: inc/widgets/widgets.php:768 inc/widgets/widgets.php:1042
+msgid "Number of Posts:"
+msgstr "Number of Posts:"
+
+#: inc/widgets/widgets.php:765 inc/widgets/widgets.php:918
+#: inc/widgets/widgets.php:1039 inc/widgets/widgets.php:1591
+#: inc/widgets/widgets.php:1596 inc/widgets/widgets.php:1601
+#: inc/widgets/widgets.php:1606 inc/widgets/widgets.php:1611
+#: inc/widgets/widgets.php:1616
+msgid "All Categories"
+msgstr "All Categories"
+
+#: inc/widgets/widgets.php:763 inc/widgets/widgets.php:1037
+msgid "Select Category:"
+msgstr "Select Category:"
+
+#: inc/widgets/widgets.php:758 inc/widgets/widgets.php:921
+msgid "Short Discription:"
+msgstr "Short Description:"
+
+#: inc/widgets/widgets.php:748
+msgid "Displays post form selected category As Blog Post"
+msgstr "Displays post form selected category As Blog Post"
+
+#: inc/widgets/widgets.php:673
+msgid "MB :- Call To Action Widget"
+msgstr "MB :- Call To Action Widget"
+
+#: inc/widgets/widgets.php:667
+msgid "Button URL:"
+msgstr "Button URL:"
+
+#: inc/widgets/widgets.php:662
+msgid "Button Text:"
+msgstr "Button Text:"
+
+#: inc/widgets/widgets.php:658
+msgid "Background Image:"
+msgstr "Background Image:"
+
+#: inc/widgets/widgets.php:648
+msgid "Displays call-to-action section on the basis of information listed here"
+msgstr "Displays call-to-action section on the basis of information listed here"
+
+#: inc/widgets/widgets.php:533
+msgid "MB :- Testimonial Widget"
+msgstr "MB :- Testimonial Widget"
+
+#: inc/widgets/widgets.php:500
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: inc/widgets/widgets.php:494
+msgid "Displays page as testimonial form selected pages"
+msgstr "Displays page as testimonial form selected pages"
+
+#: inc/widgets/widgets.php:368
+msgid "MB :- Intro Widget"
+msgstr "MB :- Intro Widget"
+
+#: inc/widgets/widgets.php:360
+msgid "Intro Icon 3:"
+msgstr "Intro Icon 3:"
+
+#: inc/widgets/widgets.php:347
+msgid "Intro Icon 2:"
+msgstr "Intro Icon 2:"
+
+#: inc/widgets/widgets.php:334
+msgid "Intro Icon 1:"
+msgstr "Intro Icon 1:"
+
+#: inc/widgets/widgets.php:309
+msgid "Section Background Image:"
+msgstr "Section Background Image:"
+
+#: inc/widgets/widgets.php:299
+msgid "Displays post form selected pages as intro page"
+msgstr "Displays post form selected pages as intro page"
+
+#: inc/widgets/widgets.php:164
+msgid "MB :- Service Widget"
+msgstr "MB :- Service Widget"
+
+#: inc/widgets/widgets.php:156
+msgid "Service Icon 4:"
+msgstr "Service Icon 4:"
+
+#: inc/widgets/widgets.php:150
+msgid "Select Page 4:"
+msgstr "Select Page 4:"
+
+#: inc/widgets/widgets.php:143
+msgid "Service Icon 3:"
+msgstr "Service Icon 3:"
+
+#: inc/widgets/widgets.php:137 inc/widgets/widgets.php:354
+#: inc/widgets/widgets.php:526
+msgid "Select Page 3:"
+msgstr "Select Page 3:"
+
+#: inc/widgets/widgets.php:130
+msgid "Service Icon 2:"
+msgstr "Service Icon 2:"
+
+#: inc/widgets/widgets.php:124 inc/widgets/widgets.php:341
+#: inc/widgets/widgets.php:520
+msgid "Select Page 2:"
+msgstr "Select Page 2:"
+
+#: inc/widgets/widgets.php:118 inc/widgets/widgets.php:131
+#: inc/widgets/widgets.php:144 inc/widgets/widgets.php:157
+#: inc/widgets/widgets.php:335 inc/widgets/widgets.php:348
+#: inc/widgets/widgets.php:361
+msgid "please get icon form https://ionicons.com/v2/cheatsheet.html"
+msgstr "please get icon form https://ionicons.com/v2/cheatsheet.html"
+
+#: inc/widgets/widgets.php:117
+msgid "Service Icon 1:"
+msgstr "Service Icon 1:"
+
+#: inc/widgets/widgets.php:114 inc/widgets/widgets.php:127
+#: inc/widgets/widgets.php:140 inc/widgets/widgets.php:153
+#: inc/widgets/widgets.php:331 inc/widgets/widgets.php:344
+#: inc/widgets/widgets.php:357 inc/widgets/widgets.php:517
+#: inc/widgets/widgets.php:523 inc/widgets/widgets.php:529
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Select &mdash;"
+
+#: inc/widgets/widgets.php:111 inc/widgets/widgets.php:328
+#: inc/widgets/widgets.php:514
+msgid "Select Page 1:"
+msgstr "Select Page 1:"
+
+#: inc/widgets/widgets.php:106 inc/widgets/widgets.php:323
+msgid "Font Icon will be replaced by featured image of particular pages"
+msgstr "Font Icon will be replaced by featured image of particular pages"
+
+#: inc/widgets/widgets.php:105 inc/widgets/widgets.php:322
+msgid "Switch to Feature Image"
+msgstr "Switch to Feature Image"
+
+#: inc/widgets/widgets.php:97 inc/widgets/widgets.php:314
+#: inc/widgets/widgets.php:506 inc/widgets/widgets.php:777
+msgid "Number of words"
+msgstr "Number of words"
+
+#: inc/widgets/widgets.php:96 inc/widgets/widgets.php:313
+#: inc/widgets/widgets.php:505 inc/widgets/widgets.php:776
+msgid "Excerpt Length:"
+msgstr "Excerpt Length:"
+
+#: inc/widgets/widgets.php:91
+msgid "Move Image to Right"
+msgstr "Move Image to Right"
+
+#: inc/widgets/widgets.php:87
+msgid "Section Featured Image:"
+msgstr "Section Featured Image:"
+
+#: inc/widgets/widgets.php:82 inc/widgets/widgets.php:304
+#: inc/widgets/widgets.php:499 inc/widgets/widgets.php:653
+#: inc/widgets/widgets.php:753 inc/widgets/widgets.php:911
+#: inc/widgets/widgets.php:1032 inc/widgets/widgets.php:1158
+#: inc/widgets/widgets.php:1300 inc/widgets/widgets.php:1579
+#: inc/widgets/widgets.php:1782
+msgid "Title:"
+msgstr "Title:"
+
+#: inc/widgets/widgets.php:77
+msgid "Displays post form selected pages as service page"
+msgstr "Displays post form selected pages as service page"
+
+#: inc/widgets/widget-base-class.php:298
+msgctxt "Remove"
+msgid "X"
+msgstr "X"
+
+#: inc/widgets/widget-base-class.php:287
+msgid "Choose Image"
+msgstr "Choose Image"
+
+#: inc/widgets/widget-base-class.php:286
+msgid "Select Image"
+msgstr "Select Image"
+
+#: inc/widgets/widget-base-class.php:285
+msgid "Upload"
+msgstr "Upload"
+
+#: inc/widget-init.php:66
+msgid "Footer Column Four"
+msgstr "Footer Column Four"
+
+#: inc/widget-init.php:55
+msgid "Footer Column Three"
+msgstr "Footer Column Three"
+
+#: inc/widget-init.php:44
+msgid "Footer Column Two"
+msgstr "Footer Column Two"
+
+#: inc/widget-init.php:36 inc/widget-init.php:46 inc/widget-init.php:57
+#: inc/widget-init.php:68
+msgid "Displays items on footer section."
+msgstr "Displays items on footer section."
+
+#: inc/widget-init.php:34
+msgid "Footer Column One"
+msgstr "Footer Column One"
+
+#: inc/widget-init.php:23
+msgid "Add widgets here which will apear on your home page."
+msgstr "Add widgets here which will apear on your home page."
+
+#: inc/widget-init.php:21
+msgid "Home Page Widget Area"
+msgstr "Home Page Widget Area"
+
+#: inc/widget-init.php:12
+msgid "Add widgets here."
+msgstr "Add widgets here."
+
+#: inc/widget-init.php:10
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/template-tags.php:140
+msgid "Tagged: %1$s"
+msgstr "Tagged: %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:138
+msgid " "
+msgstr " "
+
+#: inc/template-tags.php:122
+msgid "#%1$s"
+msgstr "#%1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:120
+msgid " #"
+msgstr " #"
+
+#: inc/template-tags.php:102
+msgid " %s"
+msgstr " %s"
+
+#: template-parts/content.php:57 inc/template-tags.php:59
+msgid "% Comments"
+msgstr "% Comments"
+
+#: template-parts/content.php:57 inc/template-tags.php:59
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: template-parts/content.php:57 inc/template-tags.php:59
+msgid "comment"
+msgstr "comment"
+
+#: inc/template-tags.php:36 inc/template-tags.php:74
+msgid "By %s"
+msgstr "By %s"
+
+#: inc/template-tags.php:31
+msgid "Posted On %s"
+msgstr "Posted On %s"
+
+#: inc/hooks/main-banner.php:62
+msgid "View More"
+msgstr "View More"
+
+#: inc/hooks/layout-meta/layout-meta.php:106
+msgid "No Image"
+msgstr "No Image"
+
+#: inc/hooks/layout-meta/layout-meta.php:94
+msgid "Single Page/Post Image Layout"
+msgstr "Single Page/Post Image Layout"
+
+#: inc/hooks/layout-meta/layout-meta.php:79
+msgid "Single Page/Post Layout"
+msgstr "Single Page/Post Layout"
+
+#: inc/hooks/layout-meta/layout-meta.php:67
+msgid "Layout Settings"
+msgstr "Layout Settings"
+
+#: inc/hooks/layout-meta/layout-meta.php:23
+msgid "Single Page/Post Settings"
+msgstr "Single Page/Post Settings"
+
+#: inc/customizer/theme-option.php:444
+msgid "Enable Preloader"
+msgstr "Enable Preloader"
+
+#: inc/customizer/theme-option.php:427
+msgid "Preloader Options"
+msgstr "Preloader Options"
+
+#: inc/customizer/theme-option.php:418
+msgid "Advanced"
+msgstr "Advanced"
+
+#: inc/customizer/theme-option.php:417
+msgid "Simple"
+msgstr "Simple"
+
+#: inc/customizer/theme-option.php:416
+msgid "Disabled"
+msgstr "Disabled"
+
+#: inc/customizer/theme-option.php:412
+msgid "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+msgstr "Advanced: Requires %1$sBreadcrumb NavXT%2$s plugin"
+
+#: inc/customizer/theme-option.php:411
+msgid "Breadcrumb Type"
+msgstr "Breadcrumb Type"
+
+#: inc/customizer/theme-option.php:394
+msgid "Breadcrumb Options"
+msgstr "Breadcrumb Options"
+
+#: inc/customizer/theme-option.php:384
+msgid "Footer Copyright Text"
+msgstr "Footer Copyright Text"
+
+#: inc/customizer/theme-option.php:369
+msgid "3"
+msgstr "3"
+
+#: inc/customizer/theme-option.php:368
+msgid "2"
+msgstr "2"
+
+#: inc/customizer/theme-option.php:367
+msgid "1"
+msgstr "1"
+
+#: inc/customizer/theme-option.php:366
+msgid "Disable footer sidebar area"
+msgstr "Disable footer sidebar area"
+
+#: inc/customizer/theme-option.php:361
+msgid "Number Of Footer Widget"
+msgstr "Number Of Footer Widget"
+
+#: inc/customizer/theme-option.php:344
+msgid "Footer Options"
+msgstr "Footer Options"
+
+#: inc/customizer/theme-option.php:335
+msgid "Infinite Scroll Ajax Load"
+msgstr "Infinite Scroll Ajax Load"
+
+#: inc/customizer/theme-option.php:334
+msgid "Numeric"
+msgstr "Numeric"
+
+#: inc/customizer/theme-option.php:333
+msgid "Default (Older / Newer Post)"
+msgstr "Default (Older / Newer Post)"
+
+#: inc/customizer/theme-option.php:329
+msgid "Pagination Type"
+msgstr "Pagination Type"
+
+#: inc/customizer/theme-option.php:312
+msgid "Pagination Options"
+msgstr "Pagination Options"
+
+#: inc/customizer/theme-option.php:302
+msgid "Enable Related Post in Single Post"
+msgstr "Enable Related Post in Single Post"
+
+#: inc/customizer/theme-option.php:285
+msgid "Enable Post Author Info in Single Post"
+msgstr "Enable Post Author Info in Single Post"
+
+#: inc/customizer/theme-option.php:268
+msgid "No image"
+msgstr "No image"
+
+#: inc/hooks/layout-meta/layout-meta.php:100
+#: inc/customizer/theme-option.php:267
+msgid "Left"
+msgstr "Left"
+
+#: inc/hooks/layout-meta/layout-meta.php:103
+#: inc/customizer/theme-option.php:266
+msgid "Right"
+msgstr "Right"
+
+#: inc/hooks/layout-meta/layout-meta.php:97 inc/customizer/theme-option.php:265
+msgid "Full"
+msgstr "Full"
+
+#: inc/customizer/theme-option.php:262
+msgid "Single Post/Page Image Allocation"
+msgstr "Single Post/Page Image Allocation"
+
+#: inc/customizer/theme-option.php:244
+msgid "Enable Post Author on Archive"
+msgstr "Enable Post Author on Archive"
+
+#: inc/customizer/theme-option.php:228
+msgid "Enable Post Date on Archive"
+msgstr "Enable Post Date on Archive"
+
+#: inc/customizer/theme-option.php:212
+msgid "Enable category Meta on Archive"
+msgstr "Enable category Meta on Archive"
+
+#: inc/customizer/theme-option.php:194
+msgid "Set Global Archive Length"
+msgstr "Set Global Archive Length"
+
+#: inc/customizer/theme-option.php:177
+msgid "Read More Button Text"
+msgstr "Read More Button Text"
+
+#: inc/hooks/layout-meta/layout-meta.php:88 inc/customizer/theme-option.php:160
+msgid "No Sidebar"
+msgstr "No Sidebar"
+
+#: inc/hooks/layout-meta/layout-meta.php:82 inc/customizer/theme-option.php:159
+msgid "Content - Primary Sidebar"
+msgstr "Content - Primary Sidebar"
+
+#: inc/hooks/layout-meta/layout-meta.php:85 inc/customizer/theme-option.php:158
+msgid "Primary Sidebar - Content"
+msgstr "Primary Sidebar - Content"
+
+#: inc/customizer/theme-option.php:155
+msgid "Global Layout"
+msgstr "Global Layout"
+
+#: inc/customizer/theme-option.php:137
+msgid "Layout Management"
+msgstr "Layout Management"
+
+#: inc/customizer/theme-option.php:127
+msgid "Enable Search on Header"
+msgstr "Enable Search on Header"
+
+#: inc/customizer/theme-option.php:108
+msgid "We Recomend you to use Contact Form by WPForms"
+msgstr "We  Recomend you to use Contact Form by WPForms"
+
+#: inc/customizer/theme-option.php:107
+msgid "Contact Form Shortcode"
+msgstr "Contact Form Shortcode"
+
+#: inc/customizer/theme-option.php:89
+msgid "Enable Social Menu on Contact section"
+msgstr "Enable Social Menu on Contact section"
+
+#: inc/customizer/theme-option.php:70
+msgid "Conatct Page Excerpt Length"
+msgstr "Contact Page Excerpt Length"
+
+#: inc/customizer/theme-option.php:52
+msgid "Select Contact Page"
+msgstr "Select Contact Page"
+
+#: inc/customizer/theme-option.php:36
+msgid "Enable Contact on Header"
+msgstr "Enable Contact on Header"
+
+#: inc/customizer/theme-option.php:19
+msgid "Header Section Settings"
+msgstr "Header Section Settings"
+
+#: inc/customizer/theme-option.php:12
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: inc/customizer/customizer.php:49
+msgid "Buy"
+msgstr "Buy"
+
+#: inc/customizer/customizer.php:48
+msgid "Multipurpose Business Pro"
+msgstr "Multipurpose Business Pro"
+
+#: inc/customizer/core/default.php:52
+msgid "Copyright All right reserved"
+msgstr "Copyright All right reserved"
+
+#: inc/customizer/core/default.php:41
+msgid "Continue Reading"
+msgstr "Continue Reading"
+
+#: inc/customizer/core/default.php:25
+msgid "Read More"
+msgstr "Read More"
+
+#: inc/customizer/color-typo.php:173
+msgid "Font Size For Paragraph"
+msgstr "Font Size For Paragraph"
+
+#: inc/customizer/color-typo.php:155
+msgid "Font Size for Small Title"
+msgstr "Font Size for Small Title"
+
+#: inc/customizer/color-typo.php:137
+msgid "Font Size for Big Title"
+msgstr "Font Size for Big Title"
+
+#: inc/customizer/color-typo.php:118
+msgid "Secondary Font"
+msgstr "Secondary Font"
+
+#: inc/customizer/color-typo.php:100
+msgid "Primary Font"
+msgstr "Primary Font"
+
+#: inc/customizer/color-typo.php:81
+msgid "Tertiary Color"
+msgstr "Tertiary Colour"
+
+#: inc/customizer/color-typo.php:63
+msgid "Secondary Color"
+msgstr "Secondary Colour"
+
+#: inc/customizer/color-typo.php:45
+msgid "Primary Color"
+msgstr "Primary Colour"
+
+#: inc/customizer/color-typo.php:28
+msgid "Color Options"
+msgstr "Colour Options"
+
+#: inc/customizer/color-typo.php:18
+msgid "Fonts & Typography"
+msgstr "Fonts & Typography"
+
+#: inc/customizer/color-typo.php:9
+msgid "General settings"
+msgstr "General settings"
+
+#: inc/customizer/banner-section.php:141
+msgid "Additional Button URL"
+msgstr "Additional Button URL"
+
+#: inc/customizer/banner-section.php:124
+msgid "Removing the text from this section will disable the custom button on Banner Section"
+msgstr "Removing the text from this section will disable the custom button on Banner Section"
+
+#: inc/customizer/banner-section.php:123
+msgid "Additional Banner Button Text"
+msgstr "Additional Banner Button Text"
+
+#: inc/customizer/banner-section.php:104
+msgid "Enable Page Link Button"
+msgstr "Enable Page Link Button"
+
+#: inc/customizer/banner-section.php:84
+msgid "Select no of words to Display"
+msgstr "Select no of words to Display"
+
+#: inc/customizer/banner-section.php:66
+msgid "Enabling this will dissable your Main Banner Background i.e your video or choosen header image."
+msgstr "Enabling this will disable your Main Banner Background i.e your video or chosen header image."
+
+#: inc/customizer/banner-section.php:65
+msgid "Enable Featured Image as Background Image"
+msgstr "Enable Featured Image as Background Image"
+
+#: inc/customizer/banner-section.php:48
+msgid "Select Main Banner Page"
+msgstr "Select Main Banner Page"
+
+#: inc/customizer/banner-section.php:31
+msgid "Main Banner Content"
+msgstr "Main Banner Content"
+
+#: inc/customizer/banner-section.php:21
+msgid "Main Banner Background"
+msgstr "Main Banner Background"
+
+#: inc/customizer/banner-section.php:12
+msgid "Main Banner Section Settings"
+msgstr "Main Banner Section Settings"
+
+#: inc/common-functions-hooks.php:447
+msgid "Elementor Page Builder"
+msgstr "Elementor Page Builder"
+
+#: inc/common-functions-hooks.php:442
+msgid "WP Google Maps"
+msgstr "WP Google Maps"
+
+#: inc/common-functions-hooks.php:437
+msgid "Contact Form by WPForms"
+msgstr "Contact Form by WPForms"
+
+#: inc/common-functions-hooks.php:384
+msgid "You May Also Like"
+msgstr "You May Also Like"
+
+#: inc/common-functions-hooks.php:310
+msgctxt "%s font: on or off"
+msgid "on"
+msgstr "on"
+
+#: inc/common-functions-hooks.php:121
+msgid "Load More Posts"
+msgstr "Load More Posts"
+
+#: header.php:113
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: header.php:96
+msgid "Contact us"
+msgstr "Contact us"
+
+#: header.php:55
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: functions.php:90
+msgid "Social Menu"
+msgstr "Social Menu"
+
+#: functions.php:89
+msgid "Primary"
+msgstr "Primary"
+
+#: functions.php:75
+msgid "Default Header Image"
+msgstr "Default Header Image"
+
+#: footer.php:88
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s by %2$s"
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:50 comments.php:70
+msgid "Newer Comments"
+msgstr "Newer Comments"
+
+#: comments.php:49 comments.php:69
+msgid "Older Comments"
+msgstr "Older Comments"
+
+#: comments.php:47 comments.php:67
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#. translators: %s: post title
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "One thought on &ldquo;%s&rdquo;"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:801
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:772
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1211
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:771
+#: assets/libraries/breadcrumbs/breadcrumbs.php:829
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1207
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:770
+#: assets/libraries/breadcrumbs/breadcrumbs.php:800
+#: assets/libraries/breadcrumbs/breadcrumbs.php:828
+#: assets/libraries/breadcrumbs/breadcrumbs.php:856
+#: assets/libraries/breadcrumbs/breadcrumbs.php:1203
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:753
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:735
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:717
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:262
+msgid "Week %s"
+msgstr "Week %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:260
+msgid "Minute %s"
+msgstr "Minute %s"
+
+#. Translators: %s is the page number.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:258
+msgid "Page %s"
+msgstr "Page %s"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: assets/libraries/breadcrumbs/breadcrumbs.php:256
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Search results for &#8220;%s&#8221;"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:254
+msgid "Archives"
+msgstr "Archives"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:253
+msgid "404 Not Found"
+msgstr "404 Not Found"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:252
+msgid "Home"
+msgstr "Home"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:251
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: assets/libraries/breadcrumbs/breadcrumbs.php:250
+msgid "Browse:"
+msgstr "Browse:"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing Plugin %1$s (%2$d/%3$d)"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "All installations have been completed."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "All installations and activations have been completed."
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3509
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3517
+msgid "%1$s done."
+msgstr "%1$s done."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "The installation of %1$s failed."
+
+#. translators: 1: plugin name, 2: error message.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "An error occurred while installing %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Updating Plugin %1$s (%2$d/%3$d)"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Plugin activation failed."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "No plugins are available to be activated at this time."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No plugins were selected to be activated. No action taken."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "No plugins are available to be updated at this time."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "No plugins are available to be installed at this time."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No plugins were selected to be updated. No action taken."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No plugins were selected to be installed. No action taken."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activate"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Update"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Install"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade message from the plugin author:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activate %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Update %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Install %2$s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Version"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Type"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Source"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "No plugins to install, update or activate."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Available version:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimum required version:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Installed version:"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unknown"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "To Activate <span class=\"count\">(%s)</span>"
+msgstr[1] "To Activate <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update Available <span class=\"count\">(%s)</span>"
+msgstr[1] "Update Available <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "To Install <span class=\"count\">(%s)</span>"
+msgstr[1] "To Install <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "All <span class=\"count\">(%s)</span>"
+msgstr[1] "All <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Update recommended"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Requires Update"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Required Update not Available"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Active"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Installed But Not Activated"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Not Installed"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Prepackaged"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "External Source"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recommended"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Required"
+
+#. translators: %s: version number
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:1121
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "and"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:934
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Update Required"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "This plugin needs to be updated to be compatible with your theme."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Please contact the administrator of this site for help."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "There are one or more required or recommended plugins to install, update or activate."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#. translators: 1: dashboard link.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "All plugins installed and activated successfully. %1$s"
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+
+#. translators: 1: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No action taken. Plugin %1$s was already active."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:388
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "The following plugin was activated successfully:"
+msgstr[1] ""
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:387
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin activated successfully."
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:386
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:827
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:2533
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Return to the Dashboard"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Return to Required Plugins Installer"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begin activating plugin"
+msgstr[1] "Begin activating plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Begin updating plugin"
+msgstr[1] "Begin updating plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin installing plugin"
+msgstr[1] "Begin installing plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Something went wrong with the plugin API."
+
+#. translators: %s: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Updating Plugin: %s"
+
+#. translators: %s: plugin name.
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Installing Plugin: %s"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Install Plugins"
+
+#: assets/libraries/TGM-Plugin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Install Required Plugins"
+
+#: 404.php:30
+msgid "It looks like nothing was found at this location. Maybe try going back to Homepage or a search?"
+msgstr "It looks like nothing was found at this location. Maybe try going back to Home page or a search?"
+
+#: 404.php:29
+msgid "404 page not found"
+msgstr "404 page not found"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found."
+
+#. Author URI of the theme
+msgid "https://www.themeinwp.com"
+msgstr "https://www.themeinwp.com"
+
+#. Author of the theme
+msgid "ThemeInWP"
+msgstr "ThemeInWP"
+
+#. Theme URI of the theme
+msgid "https://www.themeinwp.com/theme/multipurpose-business"
+msgstr "https://www.themeinwp.com/theme/multipurpose-business"

@@ -1,25 +1,97 @@
 # John Maher
-# Gateway - Python Turtle
+# Gateway - Turtle Workshop
 # Mirco Speretta
-# Conditionals
 # 12/20/2020
 
 
 import turtle
 import winsound
+from enum import Enum
+from drawing import Variable
 
 
-def drawVariable(t, x, y, name, value=""):
-  t.pensize(5)
-  t.goto(x,y)
-  t.forward(50)
-  t.right(90)
-  t.forward(50)
-  t.right(90)
-  t.forward(50)
-  t.right(90)
-  t.forward(50)
-  t.right(90)
+class LANGUAGE(Enum):
+  CPP = 1
+  CSHARP = 2
+  JAVA = 3
+  JAVASCRIPT = 4
+  PHP = 5
+  PYTHON = 6
+  TYPESCRIPT = 7
+
+h = 50
+language = LANGUAGE.PYTHON
+
+bottom_margin = 20
+container_height = 100
+indent = 50
+
+s = turtle.getscreen()
+s.setup(820, 620) # 20 px for window sides
+s.setworldcoordinates(0, 600, 800, 0)
+s.mode('world') 
+s.title("Conditionals Demonstration")
+s.bgcolor("cyan")
+
+screenHeight = s.screensize()[1]
+screenWidth = s.screensize()[0]
+col1 = screenWidth * .3
+
+shape =((0, 0), (0, 150), (40, 150), (40, 0))
+turtle.register_shape('button', shape)
+answer1 = turtle.Turtle()
+answer1.shape('button')
+answer2 = turtle.Turtle()
+answer2.shape('button')
+answer3 = turtle.Turtle()
+answer3.shape('button')
+answer4 = turtle.Turtle()
+answer4.shape('button')
+
+
+
+if (language == LANGUAGE.CPP):
+  if_begin = "if ({0}) {{"
+  if_middle = "}} else if ({0}) {{"
+  if_last = "} else {"
+  if_end = "}"
+
+if (language == LANGUAGE.CSHARP):
+  if_begin = "if ({0}) {{"
+  if_middle = "}} else if ({0}) {{"
+  if_last = "} else {"
+  if_end = "}"
+
+if (language == LANGUAGE.JAVA):
+  if_begin = "if ({0}) {{"
+  if_middle = "}} else if ({0}) {{"
+  if_last = "} else {"
+  if_end = "}"
+
+if (language == LANGUAGE.JAVASCRIPT):
+  if_begin = "if ({0}) {{"
+  if_middle = "}} else if ({0}) {{"
+  if_last = "} else {"
+  if_end = "}"
+
+if (language == LANGUAGE.PHP):
+  if_begin = "if ({0}) {{"
+  if_middle = "}} elseif ({0}) {{"
+  if_last = "} else {"
+  if_end = "}"
+
+if (language == LANGUAGE.PYTHON):
+  if_begin = "if {0}:"
+  if_middle = "elif {0}:"
+  if_last = "else:"
+  if_end = ""
+
+if (language == LANGUAGE.TYPESCRIPT):
+  if_begin = "if ({0}) {"
+  if_middle = "} else if ({0}) {"
+  if_last = "} else {"
+  if_end = "}"
+
 
 def drawBackground(s):
 
@@ -32,9 +104,6 @@ def drawBackground(s):
 # Section 1 presents the value
 # Section 2 displays the statement
 
-
-  screenHeight = s.screensize()[1]
-  screenWidth = s.screensize()[0]
   offsetx2ndSection = screenWidth * .25
   x2ndSectionWidth = screenWidth * .75
   y2ndSectionHeight = screenHeight * .75
@@ -42,12 +111,13 @@ def drawBackground(s):
   corner = x2ndSectionWidth * .1
 
   b = turtle.Turtle()
-  turtleDefaults(b)
-  b.up()
+  turtleDefaults(b, True)
+  b.shape('turtle')
+  b.pu()
   b.goto(offsetx2ndSection * .88, (margin + corner) * .8)
   b.fillcolor("wheat")
   b.pencolor("azure2")
-  b.down()
+  b.pd()
   b.begin_fill()
   b.rt(90)
   b.circle(60, 90)
@@ -90,21 +160,32 @@ def drawGraph(s):
   turtleDefaults(g)
   g.lt(90)
   for x in range(0, 800, 10):
-    g.up()    
+    g.pu()    
     g.goto(x, 0)
-    g.down()
+    g.pd()
     g.fd(600)
   g.rt(90)
   for y in range(0, 600, 10):
-    g.up()
+    g.pu()
     g.goto(0, y)
-    g.down()
+    g.pd()
     g.fd(800)
   s.update()
 
 def playWinSound():
   # Source of sound effect: https://www.youtube.com/watch?v=dAVzcGcVecU\
   winsound.PlaySound('Ta-Da.wav', winsound.SND_FILENAME)
+
+def row_y(row):
+
+  counter = 1
+  rowY = screenHeight * .1
+  while (counter < row):
+    counter += 1
+    rowY += screenHeight * .05
+
+  return rowY
+  
 
 def onClick(x, y): 
     print(x, " ", y)
@@ -115,26 +196,90 @@ def onClick(x, y):
     elif -350 <= x <= -250 and 170 <= y <= 190:
         draw(3.14)
 
-def turtleDefaults(t): 
+def answer1_onclick(x, y):
+    answer1.fd(100)
+
+def answer2_onclick(x, y):
+    answer2.fd(100)
+
+def answer3_onclick(x, y):
+    answer3.fd(100)
+
+def answer4_onclick(x, y):
+    answer4.fd(100)
+
+def turtleDefaults(t, hide, color="black", fill=""): 
   t.speed(0)
-  t.hideturtle()
+  t.color(color, fill)
+  if hide:
+    t.ht()
+
+def show_button(t, x, y):
+  t.pu()
+  t.goto(x, y)
+  t.st()
+
+def show_conditional():
+  # code takes 1 row and user input takes 2 rows
+  # 1st row is the code
+  # rows 2 and 3 are user input
+  # next will either be:
+  #   row 4 code and 5 & 6 are user input
+  #   row 4 & 5 are user input (last row)
+  c.clear()
+  c.ht()
+  c.pencolor("green")
+  c.pu()
+  c.goto(col1, row_y(1))
+  c.pd()
+  c.write(if_begin.format("x == 5"), font=("Courier New", 24)) 
+  show_button(answer1, col1 + indent, row_y(2 - 1)) # -1 because the shape starts at the upper left then draws down
+  c.pu()
+  c.goto(col1, row_y(4))
+  c.pd()
+  c.write(if_middle.format("x < 5"), font=("Courier New", 24)) 
+  show_button(answer2, col1 + indent, row_y(5 - 1)) # -1 because the shape starts at the upper left then draws down
+  c.pu()
+  c.goto(col1, row_y(7))
+  c.pd()
+  c.write(if_last, font=("Courier New", 24)) 
+  show_button(answer3, col1 + indent, row_y(8 - 1)) # -1 because the shape starts at the upper left then draws down
+  c.pu()
+  c.goto(col1, row_y(10))
+  c.pd()
+  c.write(if_end, font=("Courier New", 24)) 
+  show_button(answer4, col1, row_y(11 - 1)) # -1 because the shape starts at the upper left then draws down
+
+def advance_variable():
+  global h
+  v.clear()
+  Variable.draw_container(v, 35, h, "X", "5")
+  h += 20
+  if (h < screenHeight - bottom_margin - container_height):
+    turtle.ontimer(advance_variable, 500)
+
+turtleDefaults(answer1, True, "cyan", "blue")
+answer1.onclick(answer1_onclick)
+turtleDefaults(answer2, True, "cyan", "blue")
+answer2.onclick(answer2_onclick)
+turtleDefaults(answer3, True, "cyan", "blue")
+answer3.onclick(answer3_onclick)
+turtleDefaults(answer4, True, "cyan", "blue")
+answer4.onclick(answer4_onclick)
 
 
-s = turtle.getscreen()
-s.setup(820, 620) # 20 px for window sides
-s.setworldcoordinates(0, 600, 800, 0)
-s.mode('world') 
-s.title("Conditionals Demonstration")
-s.bgcolor("cyan")
-  
-t = turtle.Turtle()
-turtleDefaults(t)
+v = turtle.Turtle()
+turtleDefaults(v, True)
+c = turtle.Turtle()
+turtleDefaults(c, True)
 
 drawBackground(s)
 #drawGraph(s)
 
-
 s.onscreenclick(onClick)
+show_conditional()
+Variable.draw_container(v, 35, h, "X", "5")
+turtle.ontimer(advance_variable, 500)
 
 #s.onkey(nextFSMstate, "space")
 #s.listen()
