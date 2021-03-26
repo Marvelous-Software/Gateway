@@ -1,0 +1,4 @@
+Application name 	app
+API key 	e727fc4292a26655683cd9469a2ea5b1
+Shared secret 	de319635562cc803149564056f468d73
+Registered to 	JohnMaherDude

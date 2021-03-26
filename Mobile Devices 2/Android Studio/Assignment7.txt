@@ -1,0 +1,7 @@
+Questions:
+
+what is the snippet of code responsible to generate the items printed ? (hint: Take a look at the file MainActivity.kt)
+
+What is the code responsible to generate the "divider" between the items ? (hint: Take a look at the file MainActivity.kt)
+
+Are you able to change the color of the divider? How?

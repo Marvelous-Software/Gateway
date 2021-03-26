@@ -1,0 +1,22 @@
+.imageOff {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100px;
+}
+
+.imageOn {
+    background-image: url("../../assets/Images/Eddie1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100px;
+}
+
+.imageList {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100px;
+}

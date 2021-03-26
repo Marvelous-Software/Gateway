@@ -16,7 +16,8 @@
 
 using namespace std;
 
-const double Meters_in_Mile = 1609.3440;
+//const double Meters_in_Mile = 1609.3440;
+const double Miles_in_Meter = .00062137119;
 
 
 int main()
@@ -29,7 +30,8 @@ int main()
     cout<<"Please enter the amount in meters -> ";
     cin>>Meters;
 
-    Miles = Meters / Meters_in_Mile;
+    //Miles = Meters / Meters_in_Mile;
+    Miles = Meters * Miles_in_Meter;
 
     cout<<Meters<<" meters = "<<Miles<<" miles\n";
 

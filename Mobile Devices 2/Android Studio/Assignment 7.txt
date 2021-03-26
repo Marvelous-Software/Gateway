@@ -1,0 +1,10 @@
+1) for (i in 0..99) {
+        myItems.add( "This is item " + i )
+   }
+
+2) var itemDecoration = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
+        itemDecoration.setDrawable( ContextCompat.getDrawable( this, R.drawable.divider)!!)
+        forecastList.addItemDecoration(itemDecoration)
+
+3) <solid android:color="#1E6C02" />
+   replace 1E6C02 with values for Red, Green and Blue.

@@ -1,0 +1,67 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- <app-explore-container name="Tab 2 page"></app-explore-container> -->
+  <ion-grid>
+    
+    <ion-row>
+      <ion-col>
+        <div>
+          In CSS
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="imageOn">
+        
+        </div>
+      </ion-col>
+    </ion-row>
+
+  <!---->
+    <ion-row>
+      <ion-col>
+        <div class="imageOff">
+          None
+        </div>
+      </ion-col>
+    </ion-row> 
+
+    <ion-row>
+      <ion-col>
+        <div class="imageOff">
+          In HTML
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="imageOff" [style.background-image]="'url(assets/Images/Eddie1.jpg)'">
+        </div>
+      </ion-col>
+    </ion-row>
+  
+  <ion-row>
+    <!--<ion-col sizeLg="4" sizeMd="4" sizeXs="6" *ngFor="let image of [1,2,3,4,5]">-->
+    <ion-col *ngFor="let image of [1, 2, 3, 4, 5]">
+  <!--
+        <div class="imageOff" [style.background-image]="'url(assets/Images/Eddie' + image + '.jpg)'">
+-->
+      <div class="imageList" [style.background-image]="'url(assets/Images/Eddie' + image + '.jpg)'">
+        {{image}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  </ion-grid>
+
+</ion-content>

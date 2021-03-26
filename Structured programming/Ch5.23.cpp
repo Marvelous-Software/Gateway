@@ -16,7 +16,8 @@
 
 using namespace std;
 
-const double LB_in_KG = 2.205;
+//const double LB_in_KG = 2.205;
+const double KG_in_LB = .453515;
 
 
 int main()
@@ -29,8 +30,9 @@ int main()
     cout<<"Please enter the amount of pounds -> ";
     cin>>Pounds;
 
-    Kilograms = Pounds / LB_in_KG;
+    //Kilograms = Pounds / LB_in_KG;
+    Kilograms = Pounds * KG_in_LB;
 
-    cout<<Pounds<<"pounds = "<<Kilograms<<" kilograms\n";
+    cout<<Pounds<<" pounds = "<<Kilograms<<" kilograms\n";
 
 }
