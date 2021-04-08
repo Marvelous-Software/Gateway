@@ -46,7 +46,7 @@ int main()
     cout << endl;
 
     for (r = 65; r < 91; r++)
-      if (!guesses[r - 64])
+      if (!guesses[r - 65])
         cout << (char)r << " ";
       else
         cout << "- ";

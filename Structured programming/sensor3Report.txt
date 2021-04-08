@@ -1,4 +1,4 @@
-Number of sensor readings: 10
-Average reading: 149.77
-Maximum reading: 169.30
-Minimum reading: 132.50
+Number of grades: 11
+Average grade: 78.64
+Maximum grade: 95.00
+Minimum grade: 50.00

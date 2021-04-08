@@ -89,6 +89,37 @@
         </div>
       </ion-col>
     </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="getPosition()">
+          Get Position
+      </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Latitude:
+      </ion-col>
+      <ion-col>
+        {{lat}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Longtitude:
+      </ion-col>
+      <ion-col>
+        {{long}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Address:
+      </ion-col>
+      <ion-col>
+        {{address}}
+      </ion-col>
+    </ion-row>
     
   </ion-grid>
 

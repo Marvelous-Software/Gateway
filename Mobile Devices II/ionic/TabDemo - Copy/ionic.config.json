@@ -1,7 +1,7 @@
 {
   "name": "TabDemo",
   "integrations": {
-    "cordova": {}
+    "capacitor": {}
   },
   "type": "angular"
 }

@@ -1,5 +1,7 @@
 {
   "name": "TabDemo",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

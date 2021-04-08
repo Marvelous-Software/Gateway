@@ -17,16 +17,7 @@ const routes: Routes = [
   {
     path: 'select',
     loadChildren: () => import('./modals/select/select.module').then( m => m.SelectPageModule)
-  },
-  {
-    path: 'developers',
-    loadChildren: './pages/developers/developers.module#DevelopersPageModule'
-  },
-  {
-    path: 'developers/:id',
-    loadChildren: './pages/developer/developer.module#DeveloperPageModule'
   }
-
 ];
 @NgModule({
   imports: [

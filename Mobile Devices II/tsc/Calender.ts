@@ -11,13 +11,14 @@ var firstDay = firstDate.getDay(); //0-6
 
 
   var r;
-  var days, daysInWeek = 0;
+  var days = 0;
+  var daysInWeek = 0;
   var week = [];
   var month = [];
 
   console.log("Month enter: firstDay = " + firstDay);
+  console.log("Month enter: numbersDaysInCurrentMonth = " + numbersDaysInCurrentMonth);
   for (r=0; r<firstDay; r++){
-    days++;
     daysInWeek++;
     console.log("r = " + r);
     week.push(numbersDaysInPriorMonth-firstDay+r+1)//days are 0-6 to offset we need 1-7
@@ -35,5 +36,13 @@ var firstDay = firstDate.getDay(); //0-6
       week = [];
     }
   }
-  
+
+  days = 0;
+  while (daysInWeek < 7) {
+    days++;
+    daysInWeek++;
+    week.push(days);
+  }
+
+  month.push(week);
   console.log(month);

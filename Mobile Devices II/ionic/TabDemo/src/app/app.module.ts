@@ -7,6 +7,9 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { NativeGeocoder} from '@ionic-native/native-geocoder/ngx';
+
 //Storage
 import { IonicStorageModule } from '@ionic/storage-angular';
 
@@ -15,7 +18,9 @@ import { IonicStorageModule } from '@ionic/storage-angular';
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,
     IonicStorageModule.forRoot()],
-    providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+
+  providers: [Geolocation, NativeGeocoder, 
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
