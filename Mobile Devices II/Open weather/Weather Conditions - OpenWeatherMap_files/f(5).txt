@@ -1,0 +1,1 @@
+_gfp_s_({"_cookies_":[{"_value_":"ID=ce8eee9edd434206-2278cc2f757a0083:T=1620063917:RT=1620063917:S=ALNI_MYk2S84m5CGvoikjw-08kpT4o5e3A","_expires_":1653759917,"_path_":"/","_domain_":"openweathermap.org"}]});

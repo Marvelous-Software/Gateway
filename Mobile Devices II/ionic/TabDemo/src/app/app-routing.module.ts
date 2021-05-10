@@ -17,6 +17,18 @@ const routes: Routes = [
   {
     path: 'select',
     loadChildren: () => import('./modals/select/select.module').then( m => m.SelectPageModule)
+  },
+  {
+    path: 'rest-demo',
+    loadChildren: () => import('./rest-demo/rest-demo.module').then( m => m.RestDemoPageModule)
+  },
+  {
+    path: 'weather',
+    loadChildren: () => import('./weather/weather.module').then( m => m.WeatherPageModule)
+  },
+  {
+    path: 'templates',
+    loadChildren: () => import('./templates/templates.module').then( m => m.TemplatesPageModule)
   }
 ];
 @NgModule({

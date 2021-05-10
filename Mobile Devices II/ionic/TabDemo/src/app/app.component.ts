@@ -34,6 +34,16 @@ export class AppComponent {
         title : "Contacts",
         url : "/contact",
         icon : "paper-plane"
+      },
+      {
+        title : "Rest Demo",
+        url : "/rest-demo",
+        icon : "settings"
+      },
+      {
+        title : "Weather",
+        url : "/weather",
+        icon : "settings"
       }
     ]
   }

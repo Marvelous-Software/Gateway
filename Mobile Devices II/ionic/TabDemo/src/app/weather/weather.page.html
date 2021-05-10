@@ -1,0 +1,153 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Weather</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-grid>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        <ion-item>
+          <ion-label>City -></ion-label>
+          <ion-input  [(ngModel)]="inputCity" type="text" value="West Haven"></ion-input>
+        </ion-item>
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        <ion-button (click)='getWeather()'>
+          Get weather
+        </ion-button>
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.weather[0].main}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        City
+      </div>
+    </ion-col>
+    <ion-col>
+      <div *ngIf="weatherData.name === 'West Haven'">
+        HOME
+      </div>
+      <div *ngIf="weatherData.name !== 'West Haven'">
+        {{weatherData.name}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        Weather
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.weather[0].description}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        Temperature
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.main.temp}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        Maximum Temperature
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.main.temp_max}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        Minimum Temperature
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.main.temp_min}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        Wind speed
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.wind.speed}} m/sec
+      </div>
+      <!--<div *ngIf="weatherData !== undefined && weatherData !== null" >
+        {{weatherData.wind.speed}} m/sec
+      </div>
+      <div *ngIf="weatherData === undefined || weatherData === null" >
+        UNKNOWN
+      </div>
+    -->
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        Sunrise
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.Sunrise}}
+        <br>
+        {{weatherData.SunriseFull}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col>
+      <div>
+        Sunset
+      </div>
+    </ion-col>
+    <ion-col>
+      <div>
+        {{weatherData.Sunset}}
+        <br>
+        {{weatherData.SunsetFull}}
+      </div>
+    </ion-col>
+  </ion-row>
+
+</ion-grid>

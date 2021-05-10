@@ -15,7 +15,7 @@
 
   <!-- <app-explore-container name="Tab 2 page"></app-explore-container> -->
   <ion-grid>
-    
+
     <ion-row>
       <ion-col>
         <div>
@@ -24,19 +24,19 @@
       </ion-col>
       <ion-col>
         <div class="imageOn">
-        
+
         </div>
       </ion-col>
     </ion-row>
 
-  <!---->
+    <!---->
     <ion-row>
       <ion-col>
         <div class="imageOff">
           None
         </div>
       </ion-col>
-    </ion-row> 
+    </ion-row>
 
     <ion-row>
       <ion-col>
@@ -49,18 +49,45 @@
         </div>
       </ion-col>
     </ion-row>
-  
-  <ion-row>
-    <!--<ion-col sizeLg="4" sizeMd="4" sizeXs="6" *ngFor="let image of [1,2,3,4,5]">-->
-    <ion-col *ngFor="let image of [1, 2, 3, 4, 5]">
-  <!--
-        <div class="imageOff" [style.background-image]="'url(assets/Images/Eddie' + image + '.jpg)'">
--->
-      <div class="imageList" [style.background-image]="'url(assets/Images/Eddie' + image + '.jpg)'">
-        {{image}}
-      </div>
-    </ion-col>
-  </ion-row>
+
+    <ion-row>
+      <!--<ion-col sizeLg="4" sizeMd="4" sizeXs="6" *ngFor="let image of [1,2,3,4,5]">-->
+      <ion-col *ngFor="let image of [1, 2, 3, 4, 5]">
+        <!--
+          <div class="imageOff" [style.background-image]="'url(assets/Images/Eddie' + image + '.jpg)'">
+  -->
+        <div class="imageList" [style.background-image]="'url(assets/Images/Eddie' + image + '.jpg)'">
+          {{image}}
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="10">
+        <div>
+          <ion-button (click)="play()">
+            Beetlejuice
+          </ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div>
+          <ion-button (click)="playNative()">
+            Play (native)
+          </ion-button>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          <ion-button (click)="stopNative()">
+            Stop (native)
+          </ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
 
   </ion-grid>
 

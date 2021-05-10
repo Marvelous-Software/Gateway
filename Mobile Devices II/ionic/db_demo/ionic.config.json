@@ -1,0 +1,8 @@
+{
+  "name": "db_demo",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

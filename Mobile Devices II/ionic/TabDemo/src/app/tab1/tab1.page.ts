@@ -18,8 +18,12 @@ ionic cap sync
 */
 //npm install @ionic-native/native-geocoder
 //npm install cordova-plugin-nativegeocoder
-
-
+//
+//add service that can be used accross pages
+//ionic generate service services/apirest
+//
+//add class
+//ionic generate class models/chuck-joke
 
 @Component({
   selector: 'app-tab1',
